@@ -1,0 +1,28 @@
+{
+    "2022-11-29": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "LDOC - In Person",
+            "date": "2022-11-29",
+            "deadline": "None",
+            "links": {
+                "Slides": "/static/slides/cl10-ldoc.pdf",
+                "Recording": "https://youtu.be/5Kf3hkh_33Q"
+            }
+        }
+    ],
+    "2022-11-30": [],
+    "2022-12-02": [
+        {
+            "kind": "FN",
+            "n": 0,
+            "title": "Final @ 12:00PM",
+            "date": "2022-12-02",
+            "deadline": "None",
+            "links": {
+                "Practice Problems": "/resources/practice/fa22/final-worksheet.html"
+            }
+        }
+    ]
+}
