@@ -8,7 +8,8 @@
             "date": "2023-01-10",
             "deadline": "None",
             "links": {
-                "Stream / Recording of Lecture": "https://youtu.be/uyxc_BtpFEY"
+                "Zoom Link for Section 1 Lecture": "https://unc.zoom.us/j/92779372364",
+                "Zoom Link for Section 2 Lecture": "https://unc.zoom.us/j/99823016635"
             }
         },
         {
@@ -23,74 +24,10 @@
                 "3. Read Support Resources": "/support",
                 "4. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
             }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Monday 1/16)",
-            "date": "2023-01-10",
-            "deadline": "2023-01-16",
-            "links": {
-                "EX00 - Hello, World": "/exercises/ex00_hello_world.html",
-                "Software Setup (1/3)": "/resources/setup/os-update.html",
-                "Software Setup (2/3)": "/resources/setup/software.html",
-                "Software Setup (3/3)": "/resources/setup/workspace.html"
-            }
         }
     ],
     "2023-01-11": [],
-    "2023-01-12": [
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Computer Systems - Processes, Shells, Kernels, and Hardware",
-            "date": "2023-01-12",
-            "deadline": "2023-01-12",
-            "links": {
-                "": "https://youtu.be/LB9wVRYF9tA"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Programs, Languages, and Interpreters",
-            "date": "2023-01-12",
-            "deadline": "2023-01-12",
-            "links": {
-                "": "https://youtu.be/aMjlaAWp-sw"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "VSCode Walkthrough",
-            "date": "2023-01-12",
-            "deadline": "2023-01-12",
-            "links": {
-                "": "https://youtu.be/CA5-9qXNSqw"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Objects and Data Types (Due Sunday 1/15)",
-            "date": "2023-01-12",
-            "deadline": "2023-01-15",
-            "links": {
-                "": "/lessons/objects-data-types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Expressions (Due Sunday 1/15)",
-            "date": "2023-01-12",
-            "deadline": "2023-01-15",
-            "links": {
-                "": "/lessons/expressions.html"
-            }
-        }
-    ],
+    "2023-01-12": [],
     "2023-01-13": [],
     "2023-01-14": [],
     "2023-01-15": [],
@@ -176,18 +113,18 @@
     "2023-03-18": [],
     "2023-03-19": [],
     "2023-03-20": [],
-    "2023-03-21": [
+    "2023-03-21": [],
+    "2023-03-22": [],
+    "2023-03-23": [
         {
             "kind": "QZ",
             "n": 2,
             "title": "Quiz 2",
-            "date": "2023-03-21",
-            "deadline": "2023-03-21",
+            "date": "2023-03-23",
+            "deadline": "2023-03-23",
             "links": {}
         }
     ],
-    "2023-03-22": [],
-    "2023-03-23": [],
     "2023-03-24": [],
     "2023-03-25": [],
     "2023-03-26": [],
