@@ -42,13 +42,14 @@
             }
         },
         {
-            "kind": "LS",
+            "kind": "CL",
             "n": 1,
-            "title": "Section 1 Livestream",
+            "title": "Class Livestream",
             "date": "2023-01-12",
-            "deadline": "2023-01-12",
+            "deadline": "None",
             "links": {
-                "": "rtmp://a.rtmp.youtube.com/live2"
+                "Section 1": "rtmp://a.rtmp.youtube.com/live2",
+                "Section 2": ""
             }
         }
     ],
