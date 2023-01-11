@@ -27,7 +27,21 @@
         }
     ],
     "2023-01-11": [],
-    "2023-01-12": [],
+    "2023-01-12": [
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Wednesday 1/18)",
+            "date": "2023-01-12",
+            "deadline": "2023-01-18",
+            "links": {
+                "Software Setup (1/3)": "/resources/setup/os-update.html",
+                "Software Setup (2/3)": "/resources/setup/software.html",
+                "Software Setup (3/3)": "/resources/setup/workspace.html",
+                "EX00 - Hello, World": "/exercises/ex00_hello_world.html"
+            }
+        }
+    ],
     "2023-01-13": [],
     "2023-01-14": [],
     "2023-01-15": [],
