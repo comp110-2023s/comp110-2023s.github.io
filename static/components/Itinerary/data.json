@@ -40,6 +40,16 @@
                 "Software Setup (3/3)": "/resources/setup/workspace.html",
                 "EX00 - Hello, World": "/exercises/ex00_hello_world.html"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Section 1 Livestream",
+            "date": "2023-01-12",
+            "deadline": "2023-01-12",
+            "links": {
+                "": "rtmp://a.rtmp.youtube.com/live2"
+            }
         }
     ],
     "2023-01-13": [],
