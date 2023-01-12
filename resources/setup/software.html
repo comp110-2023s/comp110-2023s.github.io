@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1673535809.6131191">
+  <link rel="stylesheet" href="/static/styles.css?v=1673536379.9760485">
 </head>
 
 <body>
@@ -81,6 +81,7 @@
 <ul>
 <li><a href="#deactivate-conda">Deactivate Conda</a></li>
 <li><a href="#unalias-python">Unalias python</a></li>
+<li><a href="#restart-your-terminal">Restart your Terminal</a></li>
 </ul></li>
 </ul>
 </</ul>
@@ -224,14 +225,17 @@
 <hr />
 <h1 id="basic-troubleshooting">Basic Troubleshooting</h1>
 <p>If you are having trouble linking to your newest version of python, try these things…</p>
+<p>Remember that you can always check which version of python is being run by typing <code>python --version</code> in your terminal.</p>
 <h2 id="deactivate-conda">Deactivate Conda</h2>
-<p>Many people seem to have issues because they have previously installed Conda. Therefore the <code>python</code> and/or <code>python3</code> commands could be calling this version. If this is your case, try:</p>
+<p>Many people seem to have issues because they have previously installed Conda. Therefore the <code>python</code> and/or <code>python3</code> commands could be calling this version. If this is your case, open your terminal and type:</p>
 <p><code>conda deactivate</code></p>
 <p>Don’t worry! You will be able to reactivate it again if you need it!</p>
 <h2 id="unalias-python">Unalias python</h2>
-<p>It might be the case that there is an existing Python alias on your computer. Try:</p>
+<p>It might be the case that there is an existing Python alias on your computer. Open your terminal and type:</p>
 <p><code>unalias python</code></p>
 <p>If nothing is output, that means that an old alias existed and you just deleted it. If you get an error code, then this was not the issue.</p>
+<h2 id="restart-your-terminal">Restart your Terminal</h2>
+<p>It could just be an issue of closing out of your terminal and opening it back up!</p>
 </div>
 
        
