@@ -1,5 +1,4 @@
 {
-    "2023-01-09": [],
     "2023-01-10": [
         {
             "kind": "CL",
@@ -48,7 +47,7 @@
             "date": "2023-01-12",
             "deadline": "None",
             "links": {
-                "Section 1": "rtmp://a.rtmp.youtube.com/live2",
+                "Section 1": "https://youtube.com/live/L4_9aCtr6kM?feature=share",
                 "Section 2": ""
             }
         }
