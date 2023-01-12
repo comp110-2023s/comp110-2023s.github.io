@@ -43,12 +43,12 @@
         {
             "kind": "CL",
             "n": 1,
-            "title": "Class Livestream",
+            "title": "An Introduction to Coding",
             "date": "2023-01-12",
             "deadline": "None",
             "links": {
-                "Section 1": "https://youtube.com/live/L4_9aCtr6kM?feature=share",
-                "Section 2": ""
+                "Livestream Link": "https://youtube.com/live/L4_9aCtr6kM?feature=share",
+                "Lecture Slides": "/static/slides/LS01The-Ideas-Behind-Coding.pdf"
             }
         }
     ],
