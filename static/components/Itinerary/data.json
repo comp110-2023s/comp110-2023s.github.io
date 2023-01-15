@@ -104,6 +104,14 @@
                 "Practice Problems *(Coming Soon)*": "",
                 "Covered Topics: LS00-LS04, CL00-01": ""
             }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Chardle - Input, Variables, and Conditionals (Due Wednesday 1/25)",
+            "date": "2023-01-19",
+            "deadline": "2023-01-25",
+            "links": {}
         }
     ],
     "2023-01-20": [],
