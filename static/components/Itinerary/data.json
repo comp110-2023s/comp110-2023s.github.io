@@ -153,7 +153,27 @@
         }
     ],
     "2023-01-25": [],
-    "2023-01-26": [],
+    "2023-01-26": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Loops",
+            "date": "2023-01-26",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Wordle (Due Saturday 2/4)",
+            "date": "2023-01-26",
+            "deadline": "2023-02-04",
+            "links": {}
+        }
+    ],
     "2023-01-27": [],
     "2023-01-28": [],
     "2023-01-29": [],
