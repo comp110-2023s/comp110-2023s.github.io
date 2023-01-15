@@ -48,7 +48,7 @@
             "date": "2023-01-12",
             "deadline": "None",
             "links": {
-                "Livestream Link": "https://youtube.com/live/L4_9aCtr6kM?feature=share",
+                "Lecture Recording": "https://youtu.be/Zhy49y7KOMQ",
                 "Lecture Slides": "/static/slides/LS01The-Ideas-Behind-Coding.pdf"
             }
         }
@@ -57,7 +57,40 @@
     "2023-01-14": [],
     "2023-01-15": [],
     "2023-01-16": [],
-    "2023-01-17": [],
+    "2023-01-17": [
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Objects and Data Types (Due Wednesday 1/18)",
+            "date": "2023-01-17",
+            "deadline": "2023-01-18",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Expressions (Due Wednesday 1/18)",
+            "date": "2023-01-17",
+            "deadline": "2023-01-18",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Variables",
+            "date": "2023-01-17",
+            "deadline": "2023-01-17",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Environment Diagrams",
+            "date": "2023-01-17",
+            "deadline": "2023-01-17",
+            "links": {}
+        }
+    ],
     "2023-01-18": [],
     "2023-01-19": [
         {
@@ -66,14 +99,51 @@
             "title": "Quiz 0",
             "date": "2023-01-19",
             "deadline": "2023-01-19",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems *(Coming Soon)*": "",
+                "Covered Topics: LS00-LS04, CL00-01": ""
+            }
         }
     ],
     "2023-01-20": [],
     "2023-01-21": [],
     "2023-01-22": [],
     "2023-01-23": [],
-    "2023-01-24": [],
+    "2023-01-24": [
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "VSCode Walkthrough",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "More On Expressions",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Boolean Expressions",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {}
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "User Input",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {}
+        }
+    ],
     "2023-01-25": [],
     "2023-01-26": [],
     "2023-01-27": [],
