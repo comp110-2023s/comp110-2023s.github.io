@@ -1,5 +1,4 @@
 {
-    "2023-01-13": [],
     "2023-01-14": [],
     "2023-01-15": [],
     "2023-01-16": [],
@@ -7,6 +6,16 @@
         {
             "kind": "LS",
             "n": 1,
+            "title": "VS Code Walkthrough (Due Wednesday 1/18)",
+            "date": "2023-01-17",
+            "deadline": "2023-01-18",
+            "links": {
+                "Lecture Video": "https://www.youtube.com/watch?v=uJZs73924ls"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 2,
             "title": "Objects and Data Types (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
@@ -14,7 +23,7 @@
         },
         {
             "kind": "LS",
-            "n": 2,
+            "n": 3,
             "title": "Expressions (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
@@ -22,16 +31,8 @@
         },
         {
             "kind": "LS",
-            "n": 3,
-            "title": "Variables and User Input (Due Wednesday 1/18)",
-            "date": "2023-01-17",
-            "deadline": "2023-01-18",
-            "links": {}
-        },
-        {
-            "kind": "LS",
             "n": 4,
-            "title": "VS Code Walkthrough (Due Wednesday 1/18)",
+            "title": "Variables and User Input (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
             "links": {}
