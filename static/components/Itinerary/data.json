@@ -65,7 +65,7 @@
             "date": "2023-01-17",
             "deadline": "2023-01-18",
             "links": {
-                "Lecture Video": "https://www.youtube.com/watch?v=uJZs73924ls"
+                "Video": "https://www.youtube.com/watch?v=uJZs73924ls"
             }
         },
         {
@@ -74,7 +74,11 @@
             "title": "Objects and Data Types (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
-            "links": {}
+            "links": {
+                "Video *(Coming Soon)*": "",
+                "Notes": "/lessons/objects-data-types.html",
+                "Assignment": "https://www.gradescope.com/"
+            }
         },
         {
             "kind": "LS",
@@ -82,7 +86,11 @@
             "title": "Expressions (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
-            "links": {}
+            "links": {
+                "Lesson Video *(Coming Soon)*": "",
+                "Lesson Notes": "/lessons/expressions.html",
+                "Assignment": "https://www.gradescope.com/"
+            }
         },
         {
             "kind": "LS",
@@ -90,7 +98,10 @@
             "title": "Variables and User Input (Due Wednesday 1/18)",
             "date": "2023-01-17",
             "deadline": "2023-01-18",
-            "links": {}
+            "links": {
+                "Lesson Video *(Coming Soon)*": "",
+                "Assignment": "https://www.gradescope.com/"
+            }
         }
     ],
     "2023-01-18": [],
