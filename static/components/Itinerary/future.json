@@ -55,8 +55,8 @@
             "date": "2023-01-19",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": ""
+                "Lecture Video": "https://youtube.com/live/CgvK2uUuWcg?feature=share",
+                "Lecture Slides": "/static/slides/CL02-Conditionals.pdf"
             }
         },
         {
