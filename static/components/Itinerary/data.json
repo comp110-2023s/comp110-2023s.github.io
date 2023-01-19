@@ -35,10 +35,7 @@
             "date": "2023-01-12",
             "deadline": "2023-01-18",
             "links": {
-                "EX00 - Hello, World": "/exercises/ex00_hello_world.html",
-                "Software Setup (1/3)": "/resources/setup/os-update.html",
-                "Software Setup (2/3)": "/resources/setup/software.html",
-                "Software Setup (3/3)": "/resources/setup/workspace.html"
+                "EX00 - Hello, World": "/exercises/ex00_hello_world.html"
             }
         },
         {
