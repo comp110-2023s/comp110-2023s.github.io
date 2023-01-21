@@ -218,25 +218,25 @@
         {
             "kind": "LS",
             "n": 8,
-            "title": "Introducing Functions (Due Monday 2/13)",
+            "title": "Introducing Functions (Due Wednesday 2/8)",
             "date": "2023-02-07",
-            "deadline": "2023-02-13",
+            "deadline": "2023-02-08",
             "links": {}
         },
         {
             "kind": "LS",
             "n": 9,
-            "title": "Function Syntax (Due Monday 2/13)",
+            "title": "Function Syntax (Due Wednesday 2/8)",
             "date": "2023-02-07",
-            "deadline": "2023-02-13",
+            "deadline": "2023-02-08",
             "links": {}
         },
         {
             "kind": "LS",
             "n": 10,
-            "title": "Function Semantics (Due Monday 2/13)",
+            "title": "Function Semantics (Due Wednesday 2/8)",
             "date": "2023-02-07",
-            "deadline": "2023-02-13",
+            "deadline": "2023-02-08",
             "links": {}
         }
     ],
