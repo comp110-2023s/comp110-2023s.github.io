@@ -1,29 +1,4 @@
 {
-    "2023-01-18": [],
-    "2023-01-19": [
-        {
-            "kind": "CL",
-            "n": 2,
-            "title": "Conditionals and Evaluating Expressions",
-            "date": "2023-01-19",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/CgvK2uUuWcg?feature=share",
-                "Lecture Slides": "/static/slides/CL02-Conditionals.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Chardle - Input, Variables, and Conditionals (Due Wednesday 1/25)",
-            "date": "2023-01-19",
-            "deadline": "2023-01-25",
-            "links": {
-                "": "/exercises/ex01.html"
-            }
-        }
-    ],
-    "2023-01-20": [],
     "2023-01-21": [],
     "2023-01-22": [],
     "2023-01-23": [],
@@ -47,7 +22,7 @@
             "deadline": "2023-01-26",
             "links": {
                 "What to Expect": "/resources/quiz-expectations.html",
-                "Practice Problems *(Coming Soon)*": "",
+                "Practice Problems": "/resources/practice/sp23/quiz0-worksheet.html",
                 "Covered Topics: LS00-LS05, CL00-02": ""
             }
         },
