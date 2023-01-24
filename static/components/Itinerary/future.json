@@ -74,6 +74,14 @@
             "links": {}
         },
         {
+            "kind": "LS",
+            "n": 8,
+            "title": "Unicode, Emoji, Escape Sequences, and f-Strings",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {}
+        },
+        {
             "kind": "EX",
             "n": 2,
             "title": "One-shot Wordle (Due Wednesday 2/8)",
@@ -112,7 +120,7 @@
     "2023-02-07": [
         {
             "kind": "LS",
-            "n": 8,
+            "n": 9,
             "title": "Introducing Functions (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
@@ -120,7 +128,7 @@
         },
         {
             "kind": "LS",
-            "n": 9,
+            "n": 10,
             "title": "Function Syntax (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
@@ -128,7 +136,7 @@
         },
         {
             "kind": "LS",
-            "n": 10,
+            "n": 11,
             "title": "Function Semantics (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
