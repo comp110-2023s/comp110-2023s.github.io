@@ -176,14 +176,6 @@
                 "Covered Topics: LS00-LS05, CL00-02": "",
                 "Review Session (Wednesday 1/25 @6pm)": "https://unc.zoom.us/j/91758083495"
             }
-        },
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "One-shot Wordle (Due Wednesday 2/1)",
-            "date": "2023-01-26",
-            "deadline": "2023-02-01",
-            "links": {}
         }
     ],
     "2023-01-27": [],
@@ -205,6 +197,14 @@
             "title": "bool Operators: not, and, or",
             "date": "2023-01-31",
             "deadline": "2023-01-31",
+            "links": {}
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Wordle (Due Wednesday 2/8)",
+            "date": "2023-01-31",
+            "deadline": "2023-02-08",
             "links": {}
         },
         {
