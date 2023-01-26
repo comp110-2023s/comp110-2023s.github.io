@@ -120,11 +120,13 @@
             "date": "2023-01-19",
             "deadline": "2023-01-25",
             "links": {
-                "": "/exercises/ex01.html"
+                "Exercise Instructions": "/exercises/ex01.html",
+                "Video on Counters": "https://youtu.be/_H7rrC2WyYA"
             }
         }
     ],
     "2023-01-20": [],
     "2023-01-21": [],
-    "2023-01-22": []
+    "2023-01-22": [],
+    "2023-01-23": []
 }
