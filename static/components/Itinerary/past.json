@@ -116,9 +116,9 @@
         {
             "kind": "EX",
             "n": 1,
-            "title": "Chardle - Input, Variables, and Conditionals (Due Wednesday 1/25)",
+            "title": "Chardle - Input, Variables, and Conditionals (Due Monday 1/30)",
             "date": "2023-01-19",
-            "deadline": "2023-01-25",
+            "deadline": "2023-01-30",
             "links": {
                 "Exercise Instructions": "/exercises/ex01.html",
                 "Video on Counters": "https://youtu.be/_H7rrC2WyYA"
