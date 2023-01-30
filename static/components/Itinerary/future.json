@@ -20,7 +20,10 @@
             "title": "bool Operators: not, and, or",
             "date": "2023-01-31",
             "deadline": "2023-01-31",
-            "links": {}
+            "links": {
+                "Video": "",
+                "Assignment": "https://gradescope.com"
+            }
         },
         {
             "kind": "LS",
