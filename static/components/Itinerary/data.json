@@ -190,7 +190,9 @@
             "title": "while Loop Statements",
             "date": "2023-01-31",
             "deadline": "2023-01-31",
-            "links": {}
+            "links": {
+                "": "https://youtu.be/lgf1RYjo9I4"
+            }
         },
         {
             "kind": "LS",
@@ -206,7 +208,9 @@
             "title": "Unicode, Emoji, Escape Sequences, and f-Strings",
             "date": "2023-01-31",
             "deadline": "2023-01-31",
-            "links": {}
+            "links": {
+                "": "https://23s.comp110.com/lessons/strings.html"
+            }
         },
         {
             "kind": "EX",

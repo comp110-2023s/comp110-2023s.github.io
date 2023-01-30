@@ -128,5 +128,56 @@
     "2023-01-20": [],
     "2023-01-21": [],
     "2023-01-22": [],
-    "2023-01-23": []
+    "2023-01-23": [],
+    "2023-01-24": [
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Environment Diagrams",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {
+                "": "https://youtu.be/lP8b6i1hVZQ"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Environment Diagrams Practice",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {
+                "Video": "https://youtu.be/6qyIB-A2FHs",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Environment Diagrams Practice with Conditionals",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {
+                "Video": "https://youtu.be/ILN9KEAHOqc",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2023-01-25": [],
+    "2023-01-26": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2023-01-26",
+            "deadline": "2023-01-26",
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems": "/resources/practice/sp23/quiz0-worksheet.html",
+                "Covered Topics: LS00-LS05, CL00-02": "",
+                "Review Session - Recording (Passcode: 0dm=4?dd)": "https://unc.zoom.us/rec/share/4UK570bt64GmVwhmdNaQryFEjK-83GazSvG19LnipMUA-LJ-hngBGBNOD8cR-2Sw.BsL-mqxSX14B4TVU?startTime=1674686878000"
+            }
+        }
+    ],
+    "2023-01-27": []
 }
