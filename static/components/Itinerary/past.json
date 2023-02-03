@@ -181,5 +181,61 @@
     ],
     "2023-01-27": [],
     "2023-01-28": [],
-    "2023-01-29": []
+    "2023-01-29": [],
+    "2023-01-30": [],
+    "2023-01-31": [
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "while Loop Statements",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {
+                "Video": "https://youtu.be/lgf1RYjo9I4",
+                "Assignment": "https://gradescope.com"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "bool Operators: not, and, or",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {
+                "Video": "https://youtu.be/_nruixZpLdQ",
+                "Assignment": "https://gradescope.com"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Unicode, Emoji, Escape Sequences, and f-Strings",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {
+                "Reading": "https://23s.comp110.com/lessons/strings.html",
+                "Assignment": "https://gradescope.com"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "One-shot Wordle (Due Wednesday 2/8)",
+            "date": "2023-01-31",
+            "deadline": "2023-02-08",
+            "links": {
+                "": "/exercises/ex02.html"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 0,
+            "title": "Reading: The Ethical Algorithm Chapter on Gradescope (Due Monday 2/20)",
+            "date": "2023-01-31",
+            "deadline": "2023-02-20",
+            "links": {
+                "": "https://gradescope.com"
+            }
+        }
+    ]
 }
