@@ -5,7 +5,7 @@
     "2023-02-07": [
         {
             "kind": "LS",
-            "n": 9,
+            "n": 1,
             "title": "Introducing Functions (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
@@ -13,7 +13,7 @@
         },
         {
             "kind": "LS",
-            "n": 10,
+            "n": 2,
             "title": "Function Syntax (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
@@ -21,7 +21,7 @@
         },
         {
             "kind": "LS",
-            "n": 11,
+            "n": 3,
             "title": "Function Semantics (Due Wednesday 2/8)",
             "date": "2023-02-07",
             "deadline": "2023-02-08",
