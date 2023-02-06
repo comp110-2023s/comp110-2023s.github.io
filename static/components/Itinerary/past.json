@@ -185,6 +185,16 @@
     "2023-01-30": [],
     "2023-01-31": [
         {
+            "kind": "VL",
+            "n": 0,
+            "title": "Virtual Lesson",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {
+                "": "/virtual-classes/VL02.html"
+            }
+        },
+        {
             "kind": "LS",
             "n": 6,
             "title": "while Loop Statements",
@@ -237,5 +247,19 @@
                 "": "https://gradescope.com"
             }
         }
-    ]
+    ],
+    "2023-02-01": [],
+    "2023-02-02": [
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "In-person: Practice with conditional and while statements and bool expressions",
+            "date": "2023-02-02",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtu.be/oEMzdGkVlNk"
+            }
+        }
+    ],
+    "2023-02-03": []
 }

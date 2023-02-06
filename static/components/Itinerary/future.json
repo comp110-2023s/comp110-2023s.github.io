@@ -1,18 +1,4 @@
 {
-    "2023-02-01": [],
-    "2023-02-02": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "In-person: Practice with conditional and while statements and bool expressions",
-            "date": "2023-02-02",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtu.be/oEMzdGkVlNk"
-            }
-        }
-    ],
-    "2023-02-03": [],
     "2023-02-04": [],
     "2023-02-05": [],
     "2023-02-06": [],

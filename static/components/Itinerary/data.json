@@ -185,6 +185,16 @@
     "2023-01-30": [],
     "2023-01-31": [
         {
+            "kind": "VL",
+            "n": 0,
+            "title": "Virtual Lesson",
+            "date": "2023-01-31",
+            "deadline": "2023-01-31",
+            "links": {
+                "": "/virtual-classes/VL02.html"
+            }
+        },
+        {
             "kind": "LS",
             "n": 6,
             "title": "while Loop Statements",
