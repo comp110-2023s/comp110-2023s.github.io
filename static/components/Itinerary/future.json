@@ -1,5 +1,4 @@
 {
-    "2023-02-05": [],
     "2023-02-06": [],
     "2023-02-07": [
         {
@@ -15,7 +14,19 @@
         }
     ],
     "2023-02-08": [],
-    "2023-02-09": [],
+    "2023-02-09": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "while Loops and Functions",
+            "date": "2023-02-09",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/1HjRbxf4LT0?feature=share",
+                "Lecture Slides": "/static/slides/CL04.pdf"
+            }
+        }
+    ],
     "2023-02-10": [],
     "2023-02-11": [],
     "2023-02-12": [],
