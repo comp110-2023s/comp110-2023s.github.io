@@ -216,7 +216,12 @@
             "title": "Quiz 1",
             "date": "2023-02-16",
             "deadline": "2023-02-16",
-            "links": {}
+            "links": {
+                "What to Expect": "/resources/quiz-expectations.html",
+                "Practice Problems (Coming Soon)": "",
+                "Covered Topics: ": "/qz01-concepts.html",
+                "Review Session": ""
+            }
         },
         {
             "kind": "EX",
