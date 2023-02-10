@@ -175,5 +175,18 @@
     "2023-02-03": [],
     "2023-02-04": [],
     "2023-02-05": [],
-    "2023-02-06": []
+    "2023-02-06": [],
+    "2023-02-07": [
+        {
+            "kind": "VL",
+            "n": 3,
+            "title": "Virtual Lesson (Due Wednesday 2/8)",
+            "date": "2023-02-07",
+            "deadline": "2023-02-08",
+            "links": {
+                "Lesson Page": "/virtual-classes/VL03.html",
+                "Lesson Slides": "/lessons/LS9-11.pdf"
+            }
+        }
+    ]
 }
