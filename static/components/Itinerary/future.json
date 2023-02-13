@@ -1,19 +1,4 @@
 {
-    "2023-02-08": [],
-    "2023-02-09": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "while Loops and Functions",
-            "date": "2023-02-09",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/1HjRbxf4LT0?feature=share",
-                "Lecture Slides": "/static/slides/CL04.pdf"
-            }
-        }
-    ],
-    "2023-02-10": [],
     "2023-02-11": [],
     "2023-02-12": [],
     "2023-02-13": [],
@@ -30,7 +15,9 @@
                 "What to Expect": "/resources/quiz-expectations.html",
                 "Practice Problems": "/resources/practice/sp23/quiz1-worksheet.html",
                 "Covered Topics: ": "/qz01-concepts.html",
-                "Review Session": ""
+                "Tues 8 am Review Session ": "https://unc.zoom.us/j/99681738143",
+                "Tues 2 pm Review Session ": "https://unc.zoom.us/j/95252988951",
+                "Wed 6 pm Review Session ": ""
             }
         },
         {
