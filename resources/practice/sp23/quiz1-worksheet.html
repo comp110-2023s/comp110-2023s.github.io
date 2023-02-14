@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1676319066.9646728">
+  <link rel="stylesheet" href="/static/styles.css?v=1676384402.1732166">
 </head>
 
 <body>
@@ -87,10 +87,11 @@
 <li>Produce a memory diagram for the following code snippet, being sure to include its stack and output.<br />
 <img src="/static/practice_worksheets/sp23/q1.png" /></li>
 </ol>
-<p>1.1 What would happen if the <code>&lt;</code> symbol in line 8 was replaced with <code>&lt;=</code>? Why?</p>
+<p>1.1 What would happen if <code>while l1_idx &lt; len(WORD)</code> in line 8 was replaced with <code>while l1_idx &lt; len(WORD) - 1</code>? Why?</p>
 <p>1.2 What would happen if <code>l2_idx=0</code> was moved to inside the while loop on line 13? In other words, what if lines 11-13 were changed to: <img src="/static/practice_worksheets/sp23/q1_1.png" /></p>
 <p>1.3 What would happen if, in line 16, <code>if (t1 == t2) and (l1_idx != l2_idx):</code> was replaced with <code>if (t1 == t2):</code>? Why?</p>
 <p>1.4 What would happen if line 18 was removed? Why?</p>
+<p>1.5. What would happen if the <code>&lt;</code> symbol in line 8 was replaced with <code>&lt;=</code>? Why?</p>
 <ol start="2" type="1">
 <li>Produce a memory diagram for the following code snippet, being sure to include its stack, heap, and output.<br />
 <img src="/static/practice_worksheets/sp23/q2.png" /></li>
@@ -136,6 +137,7 @@
 <p>1.2 An infinite loop would occur because <code>l2_idx</code> would always equal <code>1</code> when returning to the top of the loop, and therefore <code>l2_idx &lt; len(WORD)</code> will always be True.</p>
 <p>1.3 If <code>l1_idx != l2_idx</code> is no longer required, this means that each letter can count itself twice. For example, <code>WORD[0] == WORD[0]</code> is true, so <code>n_appearances</code> for <code>"h"</code> would increase to <code>2</code>.</p>
 <p>1.4 There would be an infinite loop because <code>l2_idx</code> will never increase, and therefore <code>l2_idx &lt; len(WORD)</code> will always be True.</p>
+<p>1.5 There would be an index error because there would be the case where <code>l1_idx = 5</code>, so on line 9 <code>WORD[5]</code> would be searching for the element at index 5 in <code>"happy"</code>, when the indexes only go up to 4.</p>
 <ol start="2" type="1">
 <li><a href="/static/practice_worksheets/sp23/q2_sol.jpg">Solution</a></li>
 </ol>
