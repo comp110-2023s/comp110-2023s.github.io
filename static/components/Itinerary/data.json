@@ -262,6 +262,17 @@
             "date": "2023-02-23",
             "deadline": "2023-03-01",
             "links": {}
+        },
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Practice with Lists",
+            "date": "2023-02-23",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
+            }
         }
     ],
     "2023-02-24": [],
