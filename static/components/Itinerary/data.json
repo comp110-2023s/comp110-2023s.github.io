@@ -240,7 +240,19 @@
     "2023-02-18": [],
     "2023-02-19": [],
     "2023-02-20": [],
-    "2023-02-21": [],
+    "2023-02-21": [
+        {
+            "kind": "VL",
+            "n": 4,
+            "title": "Virtual Lesson (Due Wednesday 2/22)",
+            "date": "2023-02-21",
+            "deadline": "2023-02-22",
+            "links": {
+                "Lesson Page": "/virtual-classes/VL04.html",
+                "Lesson Slides": ""
+            }
+        }
+    ],
     "2023-02-22": [],
     "2023-02-23": [
         {
