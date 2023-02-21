@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> EX09 - River Simulation (Part 1) - COMP110 - 23S</title>
+  <link rel="icon" type="image/png" href="/static/tabbrand.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1677009725.2293947">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a href="/" class="navbar-brand">COMP 110</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+          <li class="nav-item">
+            <a href="/explore" class="nav-link">explore</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="exercises-page" class="container">
+    <div class="row pt-4">
+      <div class="col-12">
+        <h2>EX09 - River Simulation (Part 1)</h2>
+        <hr class="title" />
+      </div>
+    </div>
+
+    <script src="/static/scripts/toggle-handler.js"></script>
+    
+    <div class="row px-4">
+        <div id="box" class="toc col-xl-3 col-lg-3 order-1 order-lg-2" role="doc-toc">
+            <div id="menu-overview" class="link-page box">
+                <button id="overview-button" class="btn btn-ov" onclick="hideshow()">Overview  <img id="button-img" class="filter-icon" src="/static/components/Itinerary/arrow-up.svg" style="height:15px; padding-left: 4px;"></button>
+                <div id="overview-links">
+                    <div id="TOC" role="doc-toc">
+                        <ul class="overview-item"><ul>
+<li><a href="#set-up-your-files.">0. Set up your files.</a></li>
+<li><a href="#create-bear-class">1. Create Bear Class</a>
+<ul>
+<li><a href="#class-bear-and-__init__"><code>class Bear</code> and <code>__init__</code></a></li>
+<li><a href="#get_age-method"><code>get_age</code> method</a></li>
+</ul></li>
+<li><a href="#create-fish-class">2. Create Fish Class</a>
+<ul>
+<li><a href="#class-fish-__init__-and-get_age"><code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></a></li>
+</ul></li>
+<li><a href="#create-river-class">3. Create River Class</a>
+<ul>
+<li><a href="#class-river-and-__init__"><code>class River</code> and <code>__init__</code></a></li>
+</ul></li>
+</ul>
+</</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="content col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><p>For this exercise, you are going to practice making and instantiating classes in order to simulate a small river ecosystem with bears and fish!</p>
+<h1 id="set-up-your-files.">0. Set up your files.</h1>
+<p>In Visual Studio Code, be sure your workspace is open.</p>
+<p>Open the Explorer pane (the icon with two sheets of paper or menu View &gt; Explorer) and expand the Workspace directory.</p>
+<p>Right click on the <code>exercises</code> directory and select “New <strong>Folder</strong>”. Enter the following folder name, being careful to match punctuation:</p>
+<p><code>ex09</code></p>
+<p>Your new folder will contain 3 files.</p>
+<p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
+<p><code>fish.py</code></p>
+<p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
+<p><code>bear.py</code></p>
+<p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
+<p><code>river.py</code></p>
+<p>When finished, your directory should look something like this:</p>
+<p><img src="/static/ex09pt0.jpg" /></p>
+<h1 id="create-bear-class">1. Create Bear Class</h1>
+<h2 id="class-bear-and-__init__"><code>class Bear</code> and <code>__init__</code></h2>
+<p>For this part, you are going to create and initialize a class to represent the Bear living by the river. In the file <code>bear.py</code>, do the following:</p>
+<ol type="1">
+<li>Define a class with the name <code>Bear</code>.</li>
+<li>Define an <code>__init__</code> method that only takes <code>self</code> as an argument and initializes the following variable <code>self.age</code> as an <code>int</code> with the value <code>0</code></li>
+</ol>
+<h2 id="get_age-method"><code>get_age</code> method</h2>
+<p>Still working in <code>bear.py</code>, define a method inside the <code>Bear</code> class called <code>get_age</code> that takes no parameters other than <code>self</code> and returns <code>self.age</code>.</p>
+<h1 id="create-fish-class">2. Create Fish Class</h1>
+<h2 id="class-fish-__init__-and-get_age"><code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></h2>
+<p>Now we are going to create a class to represent the fish in the river. In the <code>fish.py</code> file, create a class called <code>Fish</code>. Define <code>__init__</code> and <code>get_age</code> methods inside this class the same way you defined them in the <code>Bear</code> class.</p>
+<h1 id="create-river-class">3. Create River Class</h1>
+<p>Now that we have some animals, we can create and populate a river!</p>
+<h2 id="class-river-and-__init__"><code>class River</code> and <code>__init__</code></h2>
+<p><strong>init</strong>, print_river()</p>
+<p>One day: print_river(), have bears and fish repopulate</p>
+</div>
+
+       
+
+    </div> 
+
+    <div class="authors-box bg-light mt-4 py-3 ps-4">
+      <span> Contributor(s): Alyssa Byrnes</span>
+    </div>
+  </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h6 class="text-center align-middle footer-text">&copy; 2023 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h6>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</body>
+
+</html>
