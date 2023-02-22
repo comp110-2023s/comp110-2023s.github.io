@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> EX09 - River Simulation (Part 1) - COMP110 - 23S</title>
+  <title> EX09 - River Simulation - COMP110 - 23S</title>
   <link rel="icon" type="image/png" href="/static/tabbrand.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1677104140.0341172">
+  <link rel="stylesheet" href="/static/styles.css?v=1677104370.9731336">
 </head>
 
 <body>
@@ -45,7 +45,7 @@
   <div id="exercises-page" class="container">
     <div class="row pt-4">
       <div class="col-12">
-        <h2>EX09 - River Simulation (Part 1)</h2>
+        <h2>EX09 - River Simulation</h2>
         <hr class="title" />
       </div>
     </div>
@@ -96,6 +96,8 @@
 </ul></li>
 <li><a href="#one_week-method"><code>one_week()</code> method</a></li>
 </ul></li>
+<li><a href="#model-reproduction">5. Model Reproduction</a></li>
+<li><a href="#model-bears-hunger">6. Model Bear’s Hunger</a></li>
 </ul>
 </</ul>
                     </div>
@@ -144,7 +146,7 @@
 <h3 id="define">Define</h3>
 <p>Define an <strong>init</strong> method of <code>River</code> that: - takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code> - initializes <code>self.fish</code> to contain <code>num_fish</code> many Fish - initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears - initializes <code>self.day</code> to be <code>0</code></p>
 <h3 id="implement">Implement</h3>
-<p>Implement the <code>__init__</code> method by constructing opening <code>my_river_sim.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish.</p>
+<p>Implement the <code>__init__</code> method by constructing opening <code>my_river_sim.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish. (Don’t forget to import the <code>River</code> class!)</p>
 <h2 id="view_river-method"><code>view_river()</code> method</h2>
 <h3 id="define-1">Define</h3>
 <p>Now, you are going to define a method inside your <code>River</code> class called <code>view_river</code>which will print the river status out to you. - It takes no parameters other than <code>self</code> and returns nothing. - It should print the following:</p>
@@ -178,6 +180,9 @@ Bear population: 2</code></pre>
 </ul>
 <h2 id="one_week-method"><code>one_week()</code> method</h2>
 <p>Todo… just repeats one_river_day 7 times.</p>
+<h1 id="model-reproduction">5. Model Reproduction</h1>
+<h1 id="model-bears-hunger">6. Model Bear’s Hunger</h1>
+<p>(Two parts… Bear’s eat fish OR starve if not enough fish.. hunger score should decrease by 1 each day if not fed)</p>
 </div>
 
        
