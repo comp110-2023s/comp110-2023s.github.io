@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1677103508.8950787">
+  <link rel="stylesheet" href="/static/styles.css?v=1677104140.0341172">
 </head>
 
 <body>
@@ -72,8 +72,16 @@
 <li><a href="#create-river-class">3. Create River Class</a>
 <ul>
 <li><a href="#class-river"><code>class River</code></a></li>
-<li><a href="#init__-method"><code>__init__</code> method</a></li>
-<li><a href="#view_river-method"><code>view_river()</code> method</a></li>
+<li><a href="#init__-method"><code>__init__</code> method</a>
+<ul>
+<li><a href="#define">Define</a></li>
+<li><a href="#implement">Implement</a></li>
+</ul></li>
+<li><a href="#view_river-method"><code>view_river()</code> method</a>
+<ul>
+<li><a href="#define-1">Define</a></li>
+<li><a href="#implement-1">Implement</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</a>
 <ul>
@@ -100,14 +108,16 @@
 <p>Open the Explorer pane (the icon with two sheets of paper or menu View &gt; Explorer) and expand the Workspace directory.</p>
 <p>Right click on the <code>exercises</code> directory and select “New <strong>Folder</strong>”. Enter the following folder name, being careful to match punctuation:</p>
 <p><code>ex09</code></p>
-<p>Your new folder will contain 3 files.</p>
+<p>Your new folder will contain 4 files.</p>
 <p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
 <p><code>fish.py</code></p>
 <p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
 <p><code>bear.py</code></p>
 <p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
 <p><code>river.py</code></p>
-<p>When finished, your directory should look something like this:</p>
+<p>Right click on <code>ex09</code> and select “New File”. Enter the following filename, being careful to match punctuation:</p>
+<p><code>my_river_sim.py</code></p>
+<p>When finished, your directory should look something like this (TODO: fix image):</p>
 <p><img src="/static/ex09pt0.jpg" /></p>
 <h1 id="create-bear-class">1. Create Bear Class</h1>
 <h2 id="class-bear-and-__init__"><code>class Bear</code> and <code>__init__</code></h2>
@@ -131,15 +141,20 @@
 <li><code>fish</code>: a <code>list</code> of <code>Fish</code> that stores the river’s fish population</li>
 </ul>
 <h2 id="init__-method"><code>__init__</code> method</h2>
+<h3 id="define">Define</h3>
 <p>Define an <strong>init</strong> method of <code>River</code> that: - takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code> - initializes <code>self.fish</code> to contain <code>num_fish</code> many Fish - initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears - initializes <code>self.day</code> to be <code>0</code></p>
-<p>Test the <code>__init__</code> method by constructing a river <code>my_river</code> with 2 Bears and 10 Fish at the bottom of <code>river.py</code>.</p>
+<h3 id="implement">Implement</h3>
+<p>Implement the <code>__init__</code> method by constructing opening <code>my_river_sim.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish.</p>
 <h2 id="view_river-method"><code>view_river()</code> method</h2>
+<h3 id="define-1">Define</h3>
 <p>Now, you are going to define a method inside your <code>River</code> class called <code>view_river</code>which will print the river status out to you. - It takes no parameters other than <code>self</code> and returns nothing. - It should print the following:</p>
 <pre><code>~~~ Day x: ~~~
 Fish population: y
 Bear population: z</code></pre>
 <p>Where <code>x</code> is the current day of the river, <code>y</code> is the number of Fish in the river, and <code>z</code> is the number of Bears in the river.</p>
-<p>At the bottom of <code>rivers.py</code>, try viewing your river by calling <code>my_river.view_river()</code>. The output should look be:</p>
+<h3 id="implement-1">Implement</h3>
+<p>At the bottom of <code>my_river_sim.py</code>, try viewing your river by calling <code>my_river.view_river()</code>.</p>
+<p>When you run <code>python -m exercises.ex09.my_river_sim</code>, the output should be:</p>
 <pre><code>~~~ Day 0: ~~~
 Fish population: 10
 Bear population: 2</code></pre>
