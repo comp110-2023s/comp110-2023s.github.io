@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1677101732.7443964">
+  <link rel="stylesheet" href="/static/styles.css?v=1677103508.8950787">
 </head>
 
 <body>
@@ -77,7 +77,15 @@
 </ul></li>
 <li><a href="#simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</a>
 <ul>
-<li><a href="#one_day-method"><code>one_day()</code> method</a></li>
+<li><a href="#one_day-methods"><code>one_day()</code> methods</a>
+<ul>
+<li><a href="#bearone_day"><code>Bear::one_day()</code></a></li>
+<li><a href="#fishone_day"><code>Fish::one_day()</code></a></li>
+</ul></li>
+<li><a href="#one_river_day-method"><code>one_river_day()</code> method</a>
+<ul>
+<li><a href="#riverone_river_day"><code>River::one_river_day()</code></a></li>
+</ul></li>
 <li><a href="#one_week-method"><code>one_week()</code> method</a></li>
 </ul></li>
 </ul>
@@ -124,22 +132,37 @@
 </ul>
 <h2 id="init__-method"><code>__init__</code> method</h2>
 <p>Define an <strong>init</strong> method of <code>River</code> that: - takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code> - initializes <code>self.fish</code> to contain <code>num_fish</code> many Fish - initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears - initializes <code>self.day</code> to be <code>0</code></p>
-<p>Test the <code>__init__</code> method by constructing a river <code>my_river</code> with 2 Bears and 10 Fish.</p>
+<p>Test the <code>__init__</code> method by constructing a river <code>my_river</code> with 2 Bears and 10 Fish at the bottom of <code>river.py</code>.</p>
 <h2 id="view_river-method"><code>view_river()</code> method</h2>
 <p>Now, you are going to define a method inside your <code>River</code> class called <code>view_river</code>which will print the river status out to you. - It takes no parameters other than <code>self</code> and returns nothing. - It should print the following:</p>
 <pre><code>~~~ Day x: ~~~
 Fish population: y
 Bear population: z</code></pre>
 <p>Where <code>x</code> is the current day of the river, <code>y</code> is the number of Fish in the river, and <code>z</code> is the number of Bears in the river.</p>
-<p>So, for the river you just constructed, <code>my_river.view_river()</code> should print:</p>
+<p>At the bottom of <code>rivers.py</code>, try viewing your river by calling <code>my_river.view_river()</code>. The output should look be:</p>
 <pre><code>~~~ Day 0: ~~~
 Fish population: 10
 Bear population: 2</code></pre>
 <h1 id="simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</h1>
 <p>Now that you have a river with Bears and Fish, you can model how their population updates day-to-day.</p>
-<h2 id="one_day-method"><code>one_day()</code> method</h2>
+<h2 id="one_day-methods"><code>one_day()</code> methods</h2>
+<p><code>Bear</code> and <code>Fish</code> will each have their own <code>one_day</code> method with the following behaviors:</p>
+<h3 id="bearone_day"><code>Bear::one_day()</code></h3>
+<p>The method <code>one_day()</code> in the <code>Bear</code> class will take no parameters other than <code>self</code> and not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
+<h3 id="fishone_day"><code>Fish::one_day()</code></h3>
+<p>The method <code>one_day()</code> in the <code>Fish</code> class will take no parameters other than <code>self</code> and not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
+<h2 id="one_river_day-method"><code>one_river_day()</code> method</h2>
+<h3 id="riverone_river_day"><code>River::one_river_day()</code></h3>
+<p>The method <code>one_river_day()</code> in the <code>River</code> class will take no parameters other than <code>self</code> and not return anything. It should behave the following way:</p>
+<ul>
+<li>Each Bear in <code>bears</code> should implement the <code>one_day()</code> method.</li>
+<li>If a Bear’s age is &gt; 5 it should be removed from <code>bears</code>.</li>
+<li>Each Fish in <code>fish</code> should implement the <code>one_day()</code> method.</li>
+<li>If a Fish’s age is &gt; 3 it should be removed from <code>fish</code>.</li>
+<li>It should call the <code>print_river()</code> method to display the updated state of the river.</li>
+</ul>
 <h2 id="one_week-method"><code>one_week()</code> method</h2>
-<p>One day: print_river(), have bears and fish repopulate</p>
+<p>Todo… just repeats one_river_day 7 times.</p>
 </div>
 
        
