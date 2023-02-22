@@ -271,8 +271,8 @@
             "date": "2023-02-23",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": ""
+                "Lecture Video": "https://youtube.com/live/mD7esU8D8_U?feature=share",
+                "Lecture Slides": "/static/slides/CL05-lists.pdf"
             }
         }
     ],
