@@ -363,9 +363,9 @@
         {
             "kind": "EX",
             "n": 9,
-            "title": "TBD (Due Monday 4/17)",
+            "title": "River Simulation Part 1 (Due Thursday 4/20)",
             "date": "2023-04-04",
-            "deadline": "2023-04-17",
+            "deadline": "2023-04-20",
             "links": {}
         }
     ],
@@ -375,7 +375,16 @@
     "2023-04-08": [],
     "2023-04-09": [],
     "2023-04-10": [],
-    "2023-04-11": [],
+    "2023-04-11": [
+        {
+            "kind": "EX",
+            "n": 10,
+            "title": "River Simulation Part 2 (Due Thursday 4/20)",
+            "date": "2023-04-11",
+            "deadline": "2023-04-20",
+            "links": {}
+        }
+    ],
     "2023-04-12": [],
     "2023-04-13": [],
     "2023-04-14": [],
@@ -395,7 +404,7 @@
         },
         {
             "kind": "EX",
-            "n": 10,
+            "n": 11,
             "title": "Simpy (Due Wednesday 4/26)",
             "date": "2023-04-20",
             "deadline": "2023-04-26",

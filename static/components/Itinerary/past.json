@@ -238,5 +238,42 @@
     ],
     "2023-02-17": [],
     "2023-02-18": [],
-    "2023-02-19": []
+    "2023-02-19": [],
+    "2023-02-20": [],
+    "2023-02-21": [
+        {
+            "kind": "VL",
+            "n": 4,
+            "title": "Virtual Lesson (Due Wednesday 2/22)",
+            "date": "2023-02-21",
+            "deadline": "2023-02-22",
+            "links": {
+                "": "/virtual-classes/VL04.html"
+            }
+        }
+    ],
+    "2023-02-22": [],
+    "2023-02-23": [
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils (Due Wednesday 3/1)",
+            "date": "2023-02-23",
+            "deadline": "2023-03-01",
+            "links": {
+                "": "/exercises/ex04.html"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 5,
+            "title": "Practice with Lists",
+            "date": "2023-02-23",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/mD7esU8D8_U?feature=share",
+                "Lecture Slides": "/static/slides/CL05-lists.pdf"
+            }
+        }
+    ]
 }
