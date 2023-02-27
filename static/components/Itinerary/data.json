@@ -305,7 +305,7 @@
         {
             "kind": "CL",
             "n": 6,
-            "title": "Practice with for...in loops + Scope",
+            "title": "For...in loops",
             "date": "2023-03-02",
             "deadline": "None",
             "links": {
