@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1677560691.347241">
+  <link rel="stylesheet" href="/static/styles.css?v=1677697706.8935459">
 </head>
 
 <body>
@@ -80,25 +80,8 @@
 </ul>
 <p>Note: Even if your functions are not 100% correct or finished, you can get full credit for the unit tests if you set up a function skeleton and write your tests assuming correct functionality.</p>
 <h2 id="skeleton-code-and-testing-setup">0. Skeleton Code and Testing Setup</h2>
-<p>Create a new <strong>directory</strong> in <code>exercises</code> named <code>ex05</code>.</p>
+<p>Create a new <strong>directory</strong> in <code>exercises</code> named <code>ex05</code>. (Right click on <code>exercises</code> and select <code>new folder</code>.)</p>
 <p>Inside the <code>exercises/ex05</code> directory, create a file named <code>utils.py</code>. Add a docstring and establish an <code>__author__</code> variable to be assigned a string with the digits of your PID. This is where you will implement your function skeletons and implementations below.</p>
-<h2 id="unit-tests">Unit Tests</h2>
-<p>Also inside the <code>exercises/ex05</code> directory, create a file named <code>utils_test.py</code>. Add a docstring and establish an <code>__author__</code> in this file as well.</p>
-<p>For each function from below (<code>only_evens</code>, <code>sub</code>, <code>concat</code>), you are to define at least <strong>3x unit test</strong> functions. Remember that a unit test function starts with <code>test_</code>.</p>
-<p>The 3 unit tests should consist of:</p>
-<ul>
-<li>One edge case</li>
-<li>Two use cases</li>
-</ul>
-<p>Include descriptive function names and docstrings, so that it captures what is being tested.</p>
-<p>The command to run your tests is <code>python -m pytest exercises/ex05</code> or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).</p>
-<p>Once you’re ready to import and begin testing your skeletons, you can add the following import lines, corresponding to the functions you have completed, to do so:</p>
-<pre class="plaintext"><code>from exercises.ex05.utils import only_evens
-from exercises.ex05.utils import sub
-from exercises.ex05.utils import concat</code></pre>
-<p>Once you have completed all functions, you can reduce the three import lines down into a single one for less redundancy in your testing code:</p>
-<pre class="plaintext"><code>from exercises.ex05.utils import only_evens, sub, concat</code></pre>
-<p>If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.</p>
 <h2 id="only_evens-25-points">1. <code>only_evens</code> – 25 Points</h2>
 <p>This is the first function you will write in <code>utils.py</code>. The other two functions will also be defined in this file.</p>
 <p>Given a <code>list</code> of <code>ints</code>, <code>only_evens</code> should return a new <code>list</code> containing only the elements of the input list that were even. The <code>only_evens</code> function must not modify the list it is given a reference to as a parameter. Example usage:</p>
@@ -123,7 +106,7 @@ from exercises.ex05.utils import concat</code></pre>
 <li>Returns: A <code>list</code> containing all elements of the first list, followed by all elements of the second list.</li>
 </ol>
 <p><code>concat</code> <em>must NOT</em> mutate (modify) either of the arguments passed to it.</p>
-<h2 id="sub-30-points">2. <code>sub</code> – 30 Points</h2>
+<h2 id="sub-30-points">3. <code>sub</code> – 30 Points</h2>
 <p>In this exercise you will write a function named <code>sub</code>. Given a <code>list</code> of <code>ints</code>, a start index, and an end index (not inclusive), <code>sub</code> should generate a List which is a subset of the given list, between the specified start index and the end index - 1. This function should <em>not mutate</em> its input list.</p>
 <p>Example usage:</p>
 <pre class="plaintext"><code>&gt;&gt;&gt; a_list = [10, 20, 30, 40]
@@ -136,8 +119,25 @@ from exercises.ex05.utils import concat</code></pre>
 <li>Returns: A List which is a subset of the given list, between the specified start index and the end index - 1.</li>
 </ol>
 <p>If the start index is negative, start from the beginning of the list. If the end index is greater than the length of the list, end with the end of the list.</p>
-<p>If the length of the list is 0, start is greater than the length of the list, or end is at most 0, return the empty list.</p>
-<h2 id="make-a-backup-checkpoint-commit">4. Make a Backup Checkpoint “Commit”</h2>
+<p>If the length of the list is 0, start is greater than or equal to the length of the list, or end is at most 0, return the empty list.</p>
+<h1 id="unit-tests">4. Unit Tests</h1>
+<p>Also inside the <code>exercises/ex05</code> directory, create a file named <code>utils_test.py</code>. Add a docstring and establish an <code>__author__</code> in this file as well.</p>
+<p>For each function from below (<code>only_evens</code>, <code>sub</code>, <code>concat</code>), you are to define at least <strong>3x unit test</strong> functions. Remember that a unit test function starts with <code>test_</code>.</p>
+<p>The 3 unit tests should consist of:</p>
+<ul>
+<li>One edge case</li>
+<li>Two use cases</li>
+</ul>
+<p>Include descriptive function names and docstrings, so that it captures what is being tested.</p>
+<p>The command to run your tests is <code>python -m pytest exercises/ex05</code> or you can run them using the beaker tab in VSCode if it is working (do note the VSCode testing feature tends to be a bit flaky).</p>
+<p>Once you’re ready to import and begin testing your skeletons, you can add the following import lines, corresponding to the functions you have completed, to do so:</p>
+<pre class="plaintext"><code>from exercises.ex05.utils import only_evens
+from exercises.ex05.utils import sub
+from exercises.ex05.utils import concat</code></pre>
+<p>Once you have completed all functions, you can reduce the three import lines down into a single one for less redundancy in your testing code:</p>
+<pre class="plaintext"><code>from exercises.ex05.utils import only_evens, sub, concat</code></pre>
+<p>If your screen is large enough, you are encouraged to open these files side-by-side in VSCode by dragging the tab of one to the right side of VSCode so that it changes to a split pane view. Closing your file explorer can help give you additional horizontal space.</p>
+<h2 id="make-a-backup-checkpoint-commit">5. Make a Backup Checkpoint “Commit”</h2>
 <p>As you make progress on this exercise, making backups is encouraged.</p>
 <ol type="1">
 <li>Open the Source Control panel (Command Palette: “Show SCM” or click the icon with three circles and lines on the activity panel).</li>
@@ -150,7 +150,7 @@ from exercises.ex05.utils import concat</code></pre>
 <li>Press the Check icon to make a <em>Commit</em> (a version) of your work.</li>
 <li>Finally, press the Ellipses icon (…), look for “Pull/Push” submenu, and select “Push to…”, and in the dropdown select your backup repository.</li>
 </ol>
-<h2 id="submit-to-gradescope-for-grading">5. Submit to Gradescope for Grading</h2>
+<h2 id="submit-to-gradescope-for-grading">6. Submit to Gradescope for Grading</h2>
 <p>Login to Gradescope and select the assignment named “EX05 - List Utils and Unit Tests”. You’ll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.</p>
 <p>If you <em>do not</em> see a Terminal at the bottom of your screen, open the Command Palette and search for “View: Toggle Integrated Terminal”.</p>
 <p>Type the following command (all on a single line):</p>
@@ -161,7 +161,7 @@ from exercises.ex05.utils import concat</code></pre>
             </div>
 
     <div class="authors-box bg-light mt-4 py-3 ps-4">
-      <span> Contributor(s):        Marlee Walls,        Kris Jordan, Kaki Ryan</span>
+      <span> Contributor(s):        Marlee Walls,        Kris Jordan,        Kaki Ryan, Alyssa Byrnes</span>
     </div>
   </div>
   <div class='link-page mt-3 container'>
