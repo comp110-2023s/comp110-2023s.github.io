@@ -27,12 +27,12 @@
         {
             "kind": "CL",
             "n": 6,
-            "title": "For...in loops",
+            "title": "For loops",
             "date": "2023-03-02",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": ""
+                "Lecture Video": "https://youtube.com/live/kpcRl37g6mI?feature=share",
+                "Lecture Slides": "/static/slides/CL06.pdf"
             }
         }
     ],
