@@ -314,6 +314,26 @@
                 "Lecture Video": "https://youtube.com/live/kpcRl37g6mI?feature=share",
                 "Lecture Slides": "/static/slides/CL06.pdf"
             }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "for ... in ... loops practice",
+            "date": "2023-03-02",
+            "deadline": "2023-03-02",
+            "links": {
+                "": "/lessons/cl07-forloops1.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "for ... in range(...) loops practice",
+            "date": "2023-03-02",
+            "deadline": "2023-03-02",
+            "links": {
+                "": "/lessons/cl07-forloops2.html"
+            }
         }
     ],
     "2023-03-03": [],
