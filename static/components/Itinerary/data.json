@@ -295,16 +295,6 @@
     "2023-03-01": [],
     "2023-03-02": [
         {
-            "kind": "EX",
-            "n": 5,
-            "title": "List Utils + Unit Tests (Due Wednesday 3/8)",
-            "date": "2023-03-02",
-            "deadline": "2023-03-08",
-            "links": {
-                "": "/exercises/ex05.html"
-            }
-        },
-        {
             "kind": "CL",
             "n": 6,
             "title": "For loops",
@@ -333,6 +323,16 @@
             "deadline": "2023-03-02",
             "links": {
                 "": "/lessons/cl07-forloops2.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "List Utils + Unit Tests (Due Wednesday 3/8)",
+            "date": "2023-03-02",
+            "deadline": "2023-03-08",
+            "links": {
+                "": "/exercises/ex05.html"
             }
         }
     ],
