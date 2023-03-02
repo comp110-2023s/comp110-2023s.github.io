@@ -308,9 +308,9 @@
         {
             "kind": "CQ",
             "n": 0,
-            "title": "for ... in ... loops practice",
+            "title": "for ... in ... loops practice (Due Saturday 3/4)",
             "date": "2023-03-02",
-            "deadline": "2023-03-02",
+            "deadline": "2023-03-04",
             "links": {
                 "": "/lessons/cl07-forloops1.html"
             }
@@ -318,9 +318,9 @@
         {
             "kind": "CQ",
             "n": 1,
-            "title": "for ... in range(...) loops practice",
+            "title": "for ... in range(...) loops practice (Due Saturday 3/4)",
             "date": "2023-03-02",
-            "deadline": "2023-03-02",
+            "deadline": "2023-03-04",
             "links": {
                 "": "/lessons/cl07-forloops2.html"
             }
