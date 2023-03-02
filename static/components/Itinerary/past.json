@@ -105,6 +105,28 @@
             "links": {
                 "": "/virtual-classes/VL01.html"
             }
+        },
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Environment Diagrams Practice",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {
+                "Video": "https://youtu.be/6qyIB-A2FHs",
+                "Assignment": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Environment Diagrams Practice with Conditionals",
+            "date": "2023-01-24",
+            "deadline": "2023-01-24",
+            "links": {
+                "Video": "https://youtu.be/ILN9KEAHOqc",
+                "Assignment": "https://www.gradescope.com/"
+            }
         }
     ],
     "2023-01-25": [],
