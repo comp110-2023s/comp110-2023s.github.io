@@ -1,5 +1,4 @@
 {
-    "2023-03-05": [],
     "2023-03-06": [],
     "2023-03-07": [
         {
@@ -42,7 +41,9 @@
             "title": "Choose Your Own Adventure (Due Wednesday 3/22)",
             "date": "2023-03-09",
             "deadline": "2023-03-22",
-            "links": {}
+            "links": {
+                "": "/exercises/ex06.html"
+            }
         },
         {
             "kind": "RD",
