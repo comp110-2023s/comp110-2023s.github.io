@@ -378,6 +378,27 @@
     "2023-03-08": [],
     "2023-03-09": [
         {
+            "kind": "CL",
+            "n": 7,
+            "title": "Practice with Scope and Dictionaries",
+            "date": "2023-03-09",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Dictionary Practice (Due Sunday 3/12)",
+            "date": "2023-03-09",
+            "deadline": "2023-03-12",
+            "links": {
+                "": "/lessons/cq04-zip.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 6,
             "title": "Choose Your Own Adventure (Due Wednesday 3/22)",
