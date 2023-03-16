@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1678584112.793683">
+  <link rel="stylesheet" href="/static/styles.css?v=1678979568.7744823">
 </head>
 
 <body>
@@ -126,7 +126,7 @@
 <p>2.1 The <code>greet</code> function must print a welcome message to give some context to your game and asks the player for their name. You should call this procedure at the beginning of your <code>main</code> procedure. (5 points – autograded)</p>
 <p>2.2 The <code>greet</code> function should assign the name input by the user to the global variable named <code>player</code>. (5 points – hand graded)</p>
 <h3 id="at-least-one-custom-procedure-15-points-total">3. At least one custom procedure (15 points total):</h3>
-<p>One of the possible directions the player is set off in from <code>main</code> must be a procedure call.</p>
+<p>One of the possible directions the player is set off in from <code>main</code> must be a procedure call. <em>(Again, a procedure is a function that returns <code>None</code>.)</em></p>
 <p>3.1 The procedure should lead to textual interaction(s) that make use of players name and ask the player for additional <code>input</code>. (10 points – hand graded)</p>
 <p>3.2 The procedure should have logic to reassign the <code>points</code> global variable directly based on the user’s choices. At a minimum, increase the adventure’s points each time the player makes a choice. (5 points – hand graded)</p>
 <p>What happens within this procedure is up to you and you are free for this procedure call to lead to others, make use of loops, and so on. Get creative!</p>
@@ -139,7 +139,7 @@
 <p>Note: Requirements 3 and 4 are intentionally asking you to implement the same kinds of behavior but using two very different strategies in code for achieving them. The strategy in #3 relies on global variables shared between the main procedure and the function(s) you write. The strategy in #4 avoids the function(s) from directly accessing or reassigning the <code>points</code> global variable. There are trade-offs to each strategy. It is valuable to think through the trade-offs of both!</p>
 </blockquote>
 <h3 id="game-loop-10-points-total">5. Game loop (10 points total):</h3>
-<p>5.0 Introduce a “game loop” in your <code>main</code> function. The game loop should allow the user to continue your experience and choose the same initial branch, or another branch, or to stop playing. Before looping, each time, you should update the user on their total number of points. (10 points – hand graded)</p>
+<p>5.0 Introduce a “game loop” in your <code>main</code> function. The game loop should allow the user to continue your experience and choose the same initial branch, or another branch, or to stop playing. Before looping, each time, you should update the user on their total number of points. (You should <strong>NOT</strong> use the <code>exit()</code> function for this.) (10 points – hand graded)</p>
 <h3 id="misc.-requirements-15-points-total">6. Misc. Requirements (15 points total):</h3>
 <p>6.0 You must make use of f-strings (formatted string literals) described in lecture 6 to produce any output that would otherwise require concatenation. (5 points – hand graded)</p>
 <p>6.1 You must define at least one global <code>NAMED_CONSTANT</code> and assign it the unicode escape sequence <code>"\U00000000"</code> for each Emoji you use. Strings such as these are considered “<em>magic numbers</em>”, too! You are encouraged to make liberal use of Emoji throughout your adventure, they are fun! (5 points – hand graded)</p>
