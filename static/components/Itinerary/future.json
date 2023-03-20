@@ -1,56 +1,4 @@
 {
-    "2023-03-08": [],
-    "2023-03-09": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Practice with Scope and Dictionaries",
-            "date": "2023-03-09",
-            "deadline": "None",
-            "links": {
-                "Lecture Video": "https://youtube.com/live/WRUa7ITM5GI?feature=share",
-                "Lecture Slides": "/static/slides/CL07.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Dictionary Practice (Due Monday 3/20)",
-            "date": "2023-03-09",
-            "deadline": "2023-03-20",
-            "links": {
-                "": "/lessons/cq04-zip.html"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "Choose Your Own Adventure (Due Wednesday 3/22)",
-            "date": "2023-03-09",
-            "deadline": "2023-03-22",
-            "links": {
-                "": "/exercises/ex06.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 1,
-            "title": "Reading: Weapons of Math Destruction (Due Wednesday 3/29)",
-            "date": "2023-03-09",
-            "deadline": "2023-03-29",
-            "links": {
-                "": "https://gradescope.com"
-            }
-        }
-    ],
-    "2023-03-10": [],
-    "2023-03-11": [],
-    "2023-03-12": [],
-    "2023-03-13": [],
-    "2023-03-14": [],
-    "2023-03-15": [],
-    "2023-03-16": [],
-    "2023-03-17": [],
     "2023-03-18": [],
     "2023-03-19": [],
     "2023-03-20": [],
@@ -75,9 +23,9 @@
             "date": "2023-03-23",
             "deadline": "2023-03-23",
             "links": {
-                "Concepts Covered": "/qz02-concepts.html",
+                "Covered Topics": "/qz02-concepts.html",
                 "Practice Problems": "/resources/practice/sp23/quiz2-worksheet.html",
-                "Review Session *(Info and link coming soon)*": ""
+                "Wed 5 pm Review Session *(link coming soon)*": ""
             }
         },
         {
