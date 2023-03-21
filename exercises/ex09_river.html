@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1679357779.1203485">
+  <link rel="stylesheet" href="/static/styles.css?v=1679358588.2453206">
 </head>
 
 <body>
@@ -62,8 +62,9 @@
 <li><a href="#set-up-your-files.">0. Set up your files.</a></li>
 <li><a href="#create-bear-class">1. Create Bear Class</a>
 <ul>
-<li><a href="#class-bear-and-__init__"><code>class Bear</code> and <code>__init__</code></a></li>
-<li><a href="#get_age-method"><code>get_age</code> method</a></li>
+<li><a href="#class-bear">1.1 <code>class Bear</code></a></li>
+<li><a href="#init__">1.2 <code>__init__</code></a></li>
+<li><a href="#get_age-method">1.3 <code>get_age</code> method</a></li>
 </ul></li>
 <li><a href="#create-fish-class">2. Create Fish Class</a>
 <ul>
@@ -122,14 +123,14 @@
 <p>When finished, your directory should look something like this (TODO: fix image):</p>
 <p><img src="/static/ex09pt0.jpg" /></p>
 <h1 id="create-bear-class">1. Create Bear Class</h1>
-<h2 id="class-bear-and-__init__"><code>class Bear</code> and <code>__init__</code></h2>
+<p>All of the work for this part will be done in the file <code>bear.py</code>.</p>
+<h2 id="class-bear">1.1 <code>class Bear</code></h2>
 <p>For this part, you are going to create and initialize a class to represent the Bear living by the river. In the file <code>bear.py</code>, do the following:</p>
-<ol type="1">
-<li>Define a class with the name <code>Bear</code>. It should have the attribute <code>age</code> which is an integer.</li>
-<li>Define an <code>__init__</code> method that only takes <code>self</code> as an argument and initializes the following variable <code>self.age</code> as an <code>int</code> with the value <code>0</code></li>
-</ol>
-<h2 id="get_age-method"><code>get_age</code> method</h2>
-<p>Still working in <code>bear.py</code>, define a method inside the <code>Bear</code> class called <code>get_age</code> that takes no parameters other than <code>self</code> and returns <code>self.age</code>.</p>
+<p>Define a class with the name <code>Bear</code>. It should have the attribute <code>age</code> which is an integer.</p>
+<h2 id="init__">1.2 <code>__init__</code></h2>
+<p>Within the <code>Bear</code> class, define an <code>__init__</code> method that only takes <code>self</code> as an argument and initializes the following variable <code>self.age</code> as an <code>int</code> with the value <code>0</code>.</p>
+<h2 id="get_age-method">1.3 <code>get_age</code> method</h2>
+<p>Still within the <code>Bear</code> class, define a method called <code>get_age</code> that takes no parameters other than <code>self</code> and returns <code>self.age</code>.</p>
 <h1 id="create-fish-class">2. Create Fish Class</h1>
 <h2 id="class-fish-__init__-and-get_age"><code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></h2>
 <p>Now we are going to create a class to represent the fish in the river. In the <code>fish.py</code> file, create a class called <code>Fish</code>. Like <code>Bear</code>, it should have the attribute <code>age</code> which is an integer. Define <code>__init__</code> and <code>get_age</code> methods inside this class the same way you defined them in the <code>Bear</code> class.</p>
@@ -144,7 +145,13 @@
 </ul>
 <h2 id="init__-method"><code>__init__</code> method</h2>
 <h3 id="define">Define</h3>
-<p>Define an <strong>init</strong> method of <code>River</code> that: - takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code> - initializes <code>self.fish</code> to contain <code>num_fish</code> many Fish - initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears - initializes <code>self.day</code> to be <code>0</code></p>
+<p>Define an <strong>init</strong> method of <code>River</code> that:</p>
+<ul>
+<li><p>takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code></p></li>
+<li><p>initializes <code>self.fish</code> to contain <code>num_fish</code> many Fish</p></li>
+<li><p>initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears</p></li>
+<li><p>initializes <code>self.day</code> to be <code>0</code></p></li>
+</ul>
 <h3 id="implement">Implement</h3>
 <p>Implement the <code>__init__</code> method by constructing opening <code>my_river_sim.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish. (Don’t forget to import the <code>River</code> class!)</p>
 <h2 id="view_river-method"><code>view_river()</code> method</h2>
