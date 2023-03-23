@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> EX09 - River Simulation - COMP110 - 23S</title>
+  <title> EX09 - River Simulation - Parts I and II - COMP110 - 23S</title>
   <link rel="icon" type="image/png" href="/static/tabbrand.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1679573270.125017">
+  <link rel="stylesheet" href="/static/styles.css?v=1679596128.1535711">
 </head>
 
 <body>
@@ -45,7 +45,7 @@
   <div id="exercises-page" class="container">
     <div class="row pt-4">
       <div class="col-12">
-        <h2>EX09 - River Simulation</h2>
+        <h2>EX09 - River Simulation - Parts I and II</h2>
         <hr class="title" />
       </div>
     </div>
@@ -59,6 +59,8 @@
                 <div id="overview-links">
                     <div id="TOC" role="doc-toc">
                         <ul class="overview-item"><ul>
+<li><a href="#part-i">Part I</a>
+<ul>
 <li><a href="#set-up-your-files.">0. Set up your files.</a></li>
 <li><a href="#create-bear-class">1. Create Bear Class</a>
 <ul>
@@ -68,32 +70,22 @@
 </ul></li>
 <li><a href="#create-fish-class">2. Create Fish Class</a>
 <ul>
-<li><a href="#class-fish-__init__-and-get_age"><code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></a></li>
+<li><a href="#class-fish-__init__-and-get_age">2.1-2.3 <code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></a></li>
 </ul></li>
 <li><a href="#create-river-class">3. Create River Class</a>
 <ul>
-<li><a href="#class-river"><code>class River</code></a></li>
-<li><a href="#init__-method"><code>__init__</code> method</a>
+<li><a href="#class-river">3.1 <code>class River</code></a></li>
+<li><a href="#init__-method">3.2 <code>__init__</code> method</a></li>
+<li><a href="#view_river-method">3.3 <code>view_river()</code> method</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#part-ii">Part II</a>
 <ul>
-<li><a href="#define">Define</a></li>
-<li><a href="#implement">Implement</a></li>
-</ul></li>
-<li><a href="#view_river-method"><code>view_river()</code> method</a>
-<ul>
-<li><a href="#define-1">Define</a></li>
-<li><a href="#implement-1">Implement</a></li>
-</ul></li>
-</ul></li>
 <li><a href="#simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</a>
 <ul>
-<li><a href="#one_day-methods"><code>one_day()</code> methods</a>
-<ul>
-<li><a href="#bearone_day"><code>Bear::one_day()</code></a></li>
-<li><a href="#fishone_day"><code>Fish::one_day()</code></a></li>
-</ul></li>
-<li><a href="#one_river_day-method"><code>one_river_day()</code> method</a>
-<ul>
-<li><a href="#riverone_river_day"><code>River::one_river_day()</code></a></li>
+<li><a href="#bearone_day">4.1 <code>Bear::one_day()</code></a></li>
+<li><a href="#fishone_day">4.2 <code>Fish::one_day()</code></a></li>
+<li><a href="#riverone_river_day">4.3 <code>River::one_river_day()</code></a></li>
 </ul></li>
 <li><a href="#one_week-method"><code>one_week()</code> method</a></li>
 </ul></li>
@@ -106,7 +98,8 @@
             </div>
         </div>
         <div id="content" class="content col-xl-9 col-lg-9 order-2 order-lg-1 pt-3"><p>For this exercise, you are going to practice making and instantiating classes in order to simulate a small river ecosystem with bears and fish!</p>
-<h1 id="set-up-your-files.">0. Set up your files.</h1>
+<h1 id="part-i">Part I</h1>
+<h2 id="set-up-your-files.">0. Set up your files.</h2>
 <p>In Visual Studio Code, be sure your workspace is open.</p>
 <p>Open the Explorer pane (the icon with two sheets of paper or menu View &gt; Explorer) and expand the Workspace directory.</p>
 <p>Right click on the <code>exercises</code> directory and select “New <strong>Folder</strong>”. Enter the following folder name, being careful to match punctuation:</p>
@@ -122,29 +115,30 @@
 <p><code>my_river_sim.py</code></p>
 <p>When finished, your directory should look something like this (TODO: fix image):</p>
 <p><img src="/static/ex09pt0.jpg" /></p>
-<h1 id="create-bear-class">1. Create Bear Class</h1>
+<h2 id="create-bear-class">1. Create Bear Class</h2>
 <p>All of the work for this part will be done in the file <code>bear.py</code>.</p>
-<h2 id="class-bear">1.1 <code>class Bear</code></h2>
+<h3 id="class-bear">1.1 <code>class Bear</code></h3>
 <p>For this part, you are going to create and initialize a class to represent the Bear living by the river. In the file <code>bear.py</code>, do the following:</p>
 <p>Define a class with the name <code>Bear</code>. It should have the attribute <code>age</code> which is an integer.</p>
-<h2 id="init__">1.2 <code>__init__</code></h2>
+<h3 id="init__">1.2 <code>__init__</code></h3>
 <p>Within the <code>Bear</code> class, define an <code>__init__</code> method that only takes <code>self</code> as an argument and initializes the following variable <code>self.age</code> as an <code>int</code> with the value <code>0</code>.</p>
-<h2 id="get_age-method">1.3 <code>get_age</code> method</h2>
+<h3 id="get_age-method">1.3 <code>get_age</code> method</h3>
 <p>Still within the <code>Bear</code> class, define a method called <code>get_age</code> that takes no parameters other than <code>self</code> and returns <code>self.age</code>.</p>
-<h1 id="create-fish-class">2. Create Fish Class</h1>
-<h2 id="class-fish-__init__-and-get_age"><code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></h2>
-<p>Now we are going to create a class to represent the fish in the river. In the <code>fish.py</code> file, create a class called <code>Fish</code>. Like <code>Bear</code>, it should have the attribute <code>age</code> which is an integer. Define <code>__init__</code> and <code>get_age</code> methods inside this class the same way you defined them in the <code>Bear</code> class.</p>
-<h1 id="create-river-class">3. Create River Class</h1>
+<h2 id="create-fish-class">2. Create Fish Class</h2>
+<p>Now we are going to create a class to represent the fish in the river.</p>
+<h3 id="class-fish-__init__-and-get_age">2.1-2.3 <code>class Fish</code>, <code>__init__</code>, and <code>get_age</code></h3>
+<p>In the <code>fish.py</code> file, create a class called <code>Fish</code>. Like <code>Bear</code>, it should have the attribute <code>age</code> which is an integer. Define <code>__init__</code> and <code>get_age</code> methods inside this class the same way you defined them in the <code>Bear</code> class.</p>
+<h2 id="create-river-class">3. Create River Class</h2>
 <p>Now that you have some animals, you can create and populate a river!</p>
-<h2 id="class-river"><code>class River</code></h2>
+<h3 id="class-river">3.1 <code>class River</code></h3>
 <p>In <code>rivers.py</code>, create a class called <code>River</code> with the following attributes:</p>
 <ul>
 <li><code>day</code>: an <code>int</code> that tells you what day of the river’s lifecycle you are modeling</li>
 <li><code>bears</code>: a <code>list</code> of <code>Bear</code>s that stores the river’s bear population</li>
 <li><code>fish</code>: a <code>list</code> of <code>Fish</code> that stores the river’s fish population</li>
 </ul>
-<h2 id="init__-method"><code>__init__</code> method</h2>
-<h3 id="define">Define</h3>
+<h3 id="init__-method">3.2 <code>__init__</code> method</h3>
+<h4 id="define">Define</h4>
 <p>Define an <strong>init</strong> method of <code>River</code> that:</p>
 <ul>
 <li><p>takes as parameters: <code>self</code>, <code>num_fish: int</code>, <code>num_bears: int</code></p></li>
@@ -152,31 +146,30 @@
 <li><p>initializes <code>self.bears</code> to contain <code>num_bears</code> many Bears</p></li>
 <li><p>initializes <code>self.day</code> to be <code>0</code></p></li>
 </ul>
-<h3 id="implement">Implement</h3>
+<h4 id="implement">Implement</h4>
 <p>Implement the <code>__init__</code> method by constructing opening <code>my_river_sim.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish. (Don’t forget to import the <code>River</code> class!)</p>
-<h2 id="view_river-method"><code>view_river()</code> method</h2>
-<h3 id="define-1">Define</h3>
+<h3 id="view_river-method">3.3 <code>view_river()</code> method</h3>
+<h4 id="define-1">Define</h4>
 <p>Now, you are going to define a method inside your <code>River</code> class called <code>view_river</code>which will print the river status out to you. - It takes no parameters other than <code>self</code> and returns nothing. - It should print the following:</p>
 <pre><code>~~~ Day x: ~~~
 Fish population: y
 Bear population: z</code></pre>
 <p>Where <code>x</code> is the current day of the river, <code>y</code> is the number of Fish in the river, and <code>z</code> is the number of Bears in the river.</p>
-<h3 id="implement-1">Implement</h3>
+<h4 id="implement-1">Implement</h4>
 <p>At the bottom of <code>my_river_sim.py</code>, try viewing your river by calling <code>my_river.view_river()</code>.</p>
 <p>When you run <code>python -m exercises.ex09.my_river_sim</code>, the output should be:</p>
 <pre><code>~~~ Day 0: ~~~
 Fish population: 10
 Bear population: 2</code></pre>
-<h1 id="simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</h1>
+<h1 id="part-ii">Part II</h1>
+<h2 id="simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</h2>
 <p>Now that you have a river with Bears and Fish, you can model how their population updates day-to-day.</p>
-<h2 id="one_day-methods"><code>one_day()</code> methods</h2>
 <p><code>Bear</code> and <code>Fish</code> will each have their own <code>one_day</code> method with the following behaviors:</p>
-<h3 id="bearone_day"><code>Bear::one_day()</code></h3>
+<h3 id="bearone_day">4.1 <code>Bear::one_day()</code></h3>
 <p>The method <code>one_day()</code> in the <code>Bear</code> class will take no parameters other than <code>self</code> and not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
-<h3 id="fishone_day"><code>Fish::one_day()</code></h3>
+<h3 id="fishone_day">4.2 <code>Fish::one_day()</code></h3>
 <p>The method <code>one_day()</code> in the <code>Fish</code> class will take no parameters other than <code>self</code> and not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
-<h2 id="one_river_day-method"><code>one_river_day()</code> method</h2>
-<h3 id="riverone_river_day"><code>River::one_river_day()</code></h3>
+<h3 id="riverone_river_day">4.3 <code>River::one_river_day()</code></h3>
 <p>The method <code>one_river_day()</code> in the <code>River</code> class will take no parameters other than <code>self</code> and not return anything. It should behave the following way:</p>
 <ul>
 <li>Each Bear in <code>bears</code> should implement the <code>one_day()</code> method.</li>
