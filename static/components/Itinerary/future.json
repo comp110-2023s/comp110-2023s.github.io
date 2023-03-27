@@ -1,46 +1,39 @@
 {
-    "2023-03-21": [
-        {
-            "kind": "VL",
-            "n": 7,
-            "title": "Virtual Lesson",
-            "date": "2023-03-21",
-            "deadline": "2023-03-21",
-            "links": {
-                "": "/virtual-classes/VL07.html"
-            }
-        }
-    ],
-    "2023-03-22": [],
-    "2023-03-23": [
-        {
-            "kind": "QZ",
-            "n": 2,
-            "title": "Quiz 2",
-            "date": "2023-03-23",
-            "deadline": "2023-03-23",
-            "links": {
-                "Covered Topics": "/qz02-concepts.html",
-                "Practice Problems": "/resources/practice/sp23/quiz2-worksheet.html",
-                "Review Session Recording (Passcode:4!612rDc)": "https://unc.zoom.us/rec/share/GD6VwInpzdNuXRo5GeDu2N_3e90ch_rjaw9bjf3SuLO-kX-mMGUV_xlsp2i2qMsB.FnFIr-Ny3DTlRg6n"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 7,
-            "title": "Dictionary Utilities (Due Wednesday 3/29)",
-            "date": "2023-03-23",
-            "deadline": "2023-03-29",
-            "links": {
-                "": "/exercises/ex07.html"
-            }
-        }
-    ],
-    "2023-03-24": [],
     "2023-03-25": [],
     "2023-03-26": [],
     "2023-03-27": [],
-    "2023-03-28": [],
+    "2023-03-28": [
+        {
+            "kind": "VL",
+            "n": 8,
+            "title": "Virtual Lesson",
+            "date": "2023-03-28",
+            "deadline": "2023-03-28",
+            "links": {
+                "": "/virtual-classes/VL08.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Row-Oriented Memory Diagram (Due Saturday 4/8)",
+            "date": "2023-03-28",
+            "deadline": "2023-04-08",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Column-Oriented Memory Diagram (Due Saturday 4/8)",
+            "date": "2023-03-28",
+            "deadline": "2023-04-08",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
     "2023-03-29": [],
     "2023-03-30": [
         {
