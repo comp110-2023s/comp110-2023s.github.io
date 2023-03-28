@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1680015905.652489">
+  <link rel="stylesheet" href="/static/styles.css?v=1680016847.3601835">
 </head>
 
 <body>
@@ -88,7 +88,12 @@
 <li><a href="#riverone_river_day">1.3 <code>River::one_river_day()</code></a></li>
 <li><a href="#one_river_week-method">1.4 <code>one_river_week()</code> method</a></li>
 </ul></li>
-<li><a href="#modelling-bears-hunger">2. Modelling Bear’s Hunger</a></li>
+<li><a href="#modelling-bears-hunger">2. Modelling Bear’s Hunger</a>
+<ul>
+<li><a href="#modifying-bearone_day">2.1 Modifying <code>Bear::one_day()</code></a></li>
+<li><a href="#beareat-method">2.2 <code>Bear::eat()</code> method</a></li>
+<li><a href="#modifying-riverone_river_day">2.3 Modifying <code>River::one_river_day</code></a></li>
+</ul></li>
 <li><a href="#modelling-reproduction">3. Modelling Reproduction</a></li>
 </ul></li>
 </ul>
@@ -181,7 +186,14 @@ Bear population: 2</code></pre>
 <h3 id="one_river_week-method">1.4 <code>one_river_week()</code> method</h3>
 <p>This method <code>one_river_week()</code> in the <code>River</code> class will take no parameters other than <code>self</code> and not return anything. It should simply implement <code>one_river_day()</code> seven times.</p>
 <h2 id="modelling-bears-hunger">2. Modelling Bear’s Hunger</h2>
-<p>Now, unfortunately, comes the circle of life. A bear’s gotta eat! Each (Two parts… Bear’s eat fish OR starve if not enough fish.. hunger score should decrease by 1 each day if not fed)</p>
+<p>Now, unfortunately, comes the circle of life. A bear’s gotta eat! This will involve modifying the method <code>one_river_day()</code> in the <code>River</code> class, the <code>one_day()</code> method in the <code>Bear</code> class, and making a new <code>eat()</code> method in the <code>Bear</code> class.</p>
+<h3 id="modifying-bearone_day">2.1 Modifying <code>Bear::one_day()</code></h3>
+<p>Modify the method <code>one_day()</code> in the <code>Bear</code> class so that every day the <code>hunger_score</code> attribute decreases by 1.</p>
+<h3 id="beareat-method">2.2 <code>Bear::eat()</code> method</h3>
+<p>Now, you are going to create a new method in the <code>Bear</code> class called <code>eat()</code>. It has two parameters, <code>self</code> and <code>num_fish: int</code> and returns nothing. It should update the <code>Bear</code>’s <code>hunger_score</code> so that it increases by <code>num_fish</code>. (For example, if <code>num_fish = 2</code>, a <code>Bear</code> ate 2 fish, so its <code>hunger_score</code> should increase by 2.)</p>
+<h3 id="modifying-riverone_river_day">2.3 Modifying <code>River::one_river_day</code></h3>
+<p>Modify the <code>one_river_day</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river and calling <code>eat()</code> each time a <code>Bear</code> eats. (Implement this <em>before</em> calling the <code>Bear</code>’s <code>one_day()</code> method.)</p>
+<p>Unfortunately, if a <code>Bear</code> gets hungry enough, it’ll starve. After eating and calling the <code>one_day()</code> method,</p>
 <h2 id="modelling-reproduction">3. Modelling Reproduction</h2>
 <p>Now we are going to model the reproduction of the Bears and the Fish! This will involve modifying the <code>River</code> method <code>one_river_day()</code>. (These action should be performed <strong>after</strong> the old or hungry <code>Bear</code>s are removed from <code>bears</code> and the old or eaten <code>Fish</code> are removed from <code>fish</code>.) The following functionality should be added to the method:</p>
 <ul>
