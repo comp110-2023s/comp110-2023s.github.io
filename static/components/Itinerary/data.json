@@ -485,9 +485,9 @@
         {
             "kind": "CQ",
             "n": 5,
-            "title": "Row-Oriented Memory Diagram (Due Saturday 4/8)",
+            "title": "Row-Oriented Memory Diagram",
             "date": "2023-03-28",
-            "deadline": "2023-04-08",
+            "deadline": "2023-03-28",
             "links": {
                 "": "https://www.gradescope.com/"
             }
@@ -495,9 +495,9 @@
         {
             "kind": "CQ",
             "n": 6,
-            "title": "Column-Oriented Memory Diagram (Due Saturday 4/8)",
+            "title": "Column-Oriented Memory Diagram",
             "date": "2023-03-28",
-            "deadline": "2023-04-08",
+            "deadline": "2023-03-28",
             "links": {
                 "": "https://www.gradescope.com/"
             }
