@@ -15,9 +15,9 @@
         {
             "kind": "CQ",
             "n": 5,
-            "title": "Row-Oriented Memory Diagram",
+            "title": "Row-Oriented Memory Diagram (Due Wednesday 3/29)",
             "date": "2023-03-28",
-            "deadline": "2023-03-28",
+            "deadline": "2023-03-29",
             "links": {
                 "": "https://www.gradescope.com/"
             }
@@ -25,9 +25,9 @@
         {
             "kind": "CQ",
             "n": 6,
-            "title": "Column-Oriented Memory Diagram",
+            "title": "Column-Oriented Memory Diagram (Due Wednesday 3/29)",
             "date": "2023-03-28",
-            "deadline": "2023-03-28",
+            "deadline": "2023-03-29",
             "links": {
                 "": "https://www.gradescope.com/"
             }
@@ -35,6 +35,17 @@
     ],
     "2023-03-29": [],
     "2023-03-30": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Quantified Shakespeare",
+            "date": "2023-03-30",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": "/static/slides/CL08.pdf"
+            }
+        },
         {
             "kind": "EX",
             "n": 8,
