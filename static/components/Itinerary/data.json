@@ -512,8 +512,9 @@
             "date": "2023-03-30",
             "deadline": "None",
             "links": {
-                "Lecture Video": "https://youtube.com/live/3dMecZqp7s8?feature=share",
-                "Lecture Slides": "/static/slides/CL08.pdf"
+                "Lecture Video": "https://youtube.com/live/a95cZlkkhT0?feature=share",
+                "Lecture Slides": "/static/slides/CL08.pdf",
+                "Data For Lecture": "bit.ly/shakespeare-txt"
             }
         },
         {
