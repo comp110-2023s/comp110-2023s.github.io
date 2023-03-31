@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1680199380.142934">
+  <link rel="stylesheet" href="/static/styles.css?v=1680286075.6562443">
 </head>
 
 <body>
@@ -193,19 +193,15 @@ Bear population: 2</code></pre>
 <h3 id="beareat-method">2.2 <code>Bear::eat()</code> method</h3>
 <p>Now, you are going to create a new method in the <code>Bear</code> class called <code>eat()</code>. It has two parameters, <code>self</code> and <code>num_fish: int</code> and returns nothing. It should update the <code>Bear</code>’s <code>hunger_score</code> so that it increases by <code>num_fish</code>. (For example, if <code>num_fish = 2</code>, a <code>Bear</code> ate 2 fish, so its <code>hunger_score</code> should increase by 2.)</p>
 <h3 id="modifying-riverbears_eating">2.3 Modifying <code>River::bears_eating</code></h3>
-<p>Modify the <code>one_river_day</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river and calling <code>eat()</code> each time a <code>Bear</code> eats. (Implement this <em>before</em> calling the <code>Bear</code>’s <code>one_day()</code> method.)</p>
+<p>Modify the <code>bears_eating</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river and calling <code>eat()</code> each time a <code>Bear</code> eats.</p>
 <h3 id="modifying-rivercheck_hunger">2.4 Modifying <code>River::check_hunger</code></h3>
-<p>Unfortunately, if a <code>Bear</code> gets hungry enough, it’ll starve. After eating and calling the <code>one_day()</code> method,</p>
+<p>Unfortunately, if a <code>Bear</code> gets hungry enough, it’ll starve. Modify the <code>check_hunger</code> method so that it checks the <code>hunger_score</code> of every <code>Bear</code> in the river. If <code>hunger_score &lt; 0</code>, then remove the <code>Bear</code> from the river.</p>
 <h2 id="modelling-reproduction">3. Modelling Reproduction</h2>
-<p>Now we are going to model the reproduction of the Bears and the Fish! This will involve modifying the <code>River</code> method <code>one_river_day()</code>. (These action should be performed <strong>after</strong> the old or hungry <code>Bear</code>s are removed from <code>bears</code> and the old or eaten <code>Fish</code> are removed from <code>fish</code>.) The following functionality should be added to the method:</p>
+<p>Now we are going to model the reproduction of the Bears and the Fish!</p>
 <h3 id="riverrepopulate_bears">3.1 <code>River::repopulate_bears</code></h3>
-<ul>
-<li><em>If and only if no Bear’s went hungry</em>, each <em>pair</em> of Bear’s will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to <code>bears</code>. To generalize, for <code>n</code> bears, there will be <code>n//2</code> new <code>Bear</code>s added to <code>bears</code>.</li>
-</ul>
+<p>Modify the <code>repopulate_bears</code> method so that it has the following functionality.Each <em>pair</em> of Bear’s will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to <code>bears</code>. To generalize, for <code>n</code> bears, there will be <code>n//2</code> new <code>Bear</code>s added to <code>bears</code>.</p>
 <h3 id="riverrepopulate_fish">3.2 <code>River::repopulate_fish</code></h3>
-<ul>
-<li>Each <em>pair</em> of fish will produce 4 offspring. In other words, if there are 2 fish, 4 new fish will be born and added to <code>fish</code>. To generalize, for <code>n</code> fish, there will be <code>(n//2) * 4</code> new <code>Fish</code> added to <code>fish</code>.</li>
-</ul>
+<p>Modify the <code>repopulate_fish</code> method so that it has the following functionality. Each <em>pair</em> of fish will produce 4 offspring. In other words, if there are 2 fish, 4 new fish will be born and added to <code>fish</code>. To generalize, for <code>n</code> fish, there will be <code>(n//2) * 4</code> new <code>Fish</code> added to <code>fish</code>.</p>
 </div>
 
        
