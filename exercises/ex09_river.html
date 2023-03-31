@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1680286075.6562443">
+  <link rel="stylesheet" href="/static/styles.css?v=1680287729.3136916">
 </head>
 
 <body>
@@ -181,11 +181,12 @@ Bear population: 2</code></pre>
 <h2 id="removing-animals-from-river">1. Removing animals from <code>River</code></h2>
 <p>At the end of their life cycle, animals should be removed from the <code>River</code>. This can be implemented via the following methods.</p>
 <h3 id="riverremove_bears-method">1.1 <code>River::remove_bears()</code> method</h3>
-<p>Within the <code>River</code> class, create a <code>remove_bears</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing.</p>
+<p>Within the <code>River</code> class, create a <code>remove_bears</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing. It should remove <code>amount</code> many <code>Bear</code>s from the <code>River</code>. You should remove the <strong>FRONTMOST</strong> <code>Bear</code>s. (The “front” being the <code>Bear</code> at index 0.)</p>
+<p><em>Implementation hint:</em> You don’t want to be removing things from a list <em>while</em> you’re looping through it. Instead, create a new <code>list[Bear]</code> and copy all surviving <code>Bear</code>s over to that list rather than removing <code>Bear</code>s directly from <code>self.bears</code>. Then update <code>self.bears</code> to be equal to that copied list.</p>
 <h3 id="riverremove_fish-method">1.2 <code>River::remove_fish()</code> method</h3>
+<p>Within the <code>River</code> class, create a <code>remove_fish</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing. It should remove <code>amount</code> many <code>Fish</code> from the <code>River</code>. You should remove the <strong>FRONTMOST</strong> <code>Fish</code>.</p>
 <h3 id="rivercheck_ages">1.3 <code>River::check_ages()</code></h3>
-<p>As animal’s age, they should be removed from the <code>River</code>. Before we respresent aging of <code>Fish</code> and <code>Bears</code>, fir</p>
-<p>If a Fish’s age is &gt; 3 it should be removed from fish., If a Bear’s age is &gt; 5 it should be removed from bears.</p>
+<p>As animal’s age, they should be removed from the <code>River</code>. Modify the <code>check_ages</code> method so it has the following functionality. If a <code>Fish</code>’s age is &gt; 3 it should be removed from <code>fish</code>. If a <code>Bear</code>’s age is &gt; 5 it should be removed from <code>bears</code>.</p>
 <h2 id="modelling-bears-hunger">2. Modelling Bear’s Hunger</h2>
 <p>Now, unfortunately, comes the circle of life. A bear’s gotta eat! This will involve modifying the method <code>one_river_day()</code> in the <code>River</code> class, the <code>one_day()</code> method in the <code>Bear</code> class, and making a new <code>eat()</code> method in the <code>Bear</code> class.</p>
 <h3 id="modifying-bearone_day">2.1 Modifying <code>Bear::one_day()</code></h3>
