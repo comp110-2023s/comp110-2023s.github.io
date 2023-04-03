@@ -563,13 +563,11 @@
     "2023-04-11": [
         {
             "kind": "EX",
-            "n": 10,
+            "n": 9,
             "title": "River Simulation Part 2 (Due Thursday 4/20)",
             "date": "2023-04-11",
             "deadline": "2023-04-20",
-            "links": {
-                "": "/exercises/ex09_river.html"
-            }
+            "links": {}
         }
     ],
     "2023-04-12": [],
@@ -591,7 +589,7 @@
         },
         {
             "kind": "EX",
-            "n": 11,
+            "n": 10,
             "title": "Simpy (Due Wednesday 4/26)",
             "date": "2023-04-20",
             "deadline": "2023-04-26",
