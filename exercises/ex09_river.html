@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1680537842.8620408">
+  <link rel="stylesheet" href="/static/styles.css?v=1680541209.960724">
 </head>
 
 <body>
@@ -87,7 +87,11 @@
 </ul></li>
 <li><a href="#part-ii">Part II</a>
 <ul>
-<li><a href="#rivercheck_ages">1. <code>River#check_ages()</code></a></li>
+<li><a href="#removing-animals">1. Removing Animals</a>
+<ul>
+<li><a href="#rivercheck_ages">1.1 <code>River#check_ages()</code></a></li>
+<li><a href="#riverremove_fish">1.2 <code>River#remove_fish()</code></a></li>
+</ul></li>
 <li><a href="#modelling-bears-hunger">2. Modelling Bear’s Hunger</a>
 <ul>
 <li><a href="#modifying-bearone_day">2.1 Modifying <code>Bear#one_day()</code></a></li>
@@ -178,8 +182,12 @@ Bear population: 2</code></pre>
 <p>At the bottom of <code>river_simulation.py</code>, test out the functionality of <code>one_river_week</code> by calling it. (You’ll notice a pretty boring output. Don’t worry, in Part II we will model population changes!)</p>
 <h1 id="part-ii">Part II</h1>
 <p>For Part II we will represent the circle of life… you will be simulating the life cycle of both the <code>Bear</code>s and the <code>Fish</code> in the <code>River</code>!</p>
-<h2 id="rivercheck_ages">1. <code>River#check_ages()</code></h2>
+<h2 id="removing-animals">1. Removing Animals</h2>
+<h3 id="rivercheck_ages">1.1 <code>River#check_ages()</code></h3>
 <p>As animal’s age, they should be removed from the <code>River</code>. Modify the <code>check_ages</code> method so it has the following functionality. If a <code>Fish</code>’s age is &gt; 3 it should be removed from <code>fish</code>. If a <code>Bear</code>’s age is &gt; 5 it should be removed from <code>bears</code>.</p>
+<p><em>Implementation hint:</em> You don’t want to be removing things from a list <em>while</em> you’re looping through it. Instead, create a new <code>list[Bear]</code> and copy all surviving <code>Bear</code>s over to that list rather than removing <code>Bear</code>s directly from <code>self.bears</code>. Then update <code>self.bears</code> to be equal to that copied list.</p>
+<h3 id="riverremove_fish">1.2 <code>River#remove_fish()</code></h3>
+<p>Within the <code>River</code> class, create a <code>remove_fish</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing. It should remove <code>amount</code> many <code>Fish</code> from the <code>River</code>. You should remove the <strong>FRONTMOST</strong> <code>Fish</code>. (The “front” being the <code>Fish</code> at index 0.)</p>
 <h2 id="modelling-bears-hunger">2. Modelling Bear’s Hunger</h2>
 <p>Now, unfortunately, comes the circle of life. A bear’s gotta eat! This will involve modifying the <code>one_day()</code> method in the <code>Bear</code> class and making a new <code>eat()</code> method in the <code>Bear</code> class.</p>
 <h3 id="modifying-bearone_day">2.1 Modifying <code>Bear#one_day()</code></h3>
@@ -187,7 +195,7 @@ Bear population: 2</code></pre>
 <h3 id="beareat-method">2.2 <code>Bear#eat()</code> method</h3>
 <p>Now, you are going to create a new method in the <code>Bear</code> class called <code>eat()</code>. It has two parameters, <code>self</code> and <code>num_fish: int</code> and returns nothing. It should update the <code>Bear</code>’s <code>hunger_score</code> so that it increases by <code>num_fish</code>. (For example, if <code>num_fish = 2</code>, a <code>Bear</code> ate 2 fish, so its <code>hunger_score</code> should increase by 2.)</p>
 <h3 id="modifying-riverbears_eating">2.3 Modifying <code>River#bears_eating</code></h3>
-<p>Modify the <code>bears_eating</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river and calling <code>eat()</code> each time a <code>Bear</code> eats.</p>
+<p>Modify the <code>bears_eating</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river using the <code>remove_fish</code> method and calling <code>eat()</code> each time a <code>Bear</code> eats.</p>
 <h3 id="modifying-rivercheck_hunger">2.4 Modifying <code>River#check_hunger</code></h3>
 <p>Unfortunately, if a <code>Bear</code> gets hungry enough, it’ll starve. Modify the <code>check_hunger</code> method so that it checks the <code>hunger_score</code> of every <code>Bear</code> in the river. If <code>hunger_score &lt; 0</code>, then remove the <code>Bear</code> from the river.</p>
 <p><em>Implementation hint:</em> You don’t want to be removing things from a list <em>while</em> you’re looping through it. Instead, create a new <code>list[Bear]</code> and copy all surviving <code>Bear</code>s over to that list rather than removing <code>Bear</code>s directly from <code>self.bears</code>. Then update <code>self.bears</code> to be equal to that copied list.</p>
