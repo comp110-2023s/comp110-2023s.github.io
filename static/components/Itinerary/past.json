@@ -470,5 +470,63 @@
     "2023-03-24": [],
     "2023-03-25": [],
     "2023-03-26": [],
-    "2023-03-27": []
+    "2023-03-27": [],
+    "2023-03-28": [
+        {
+            "kind": "VL",
+            "n": 8,
+            "title": "Virtual Lesson",
+            "date": "2023-03-28",
+            "deadline": "2023-03-28",
+            "links": {
+                "": "/virtual-classes/VL08.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Row-Oriented Memory Diagram (Due Wednesday 3/29)",
+            "date": "2023-03-28",
+            "deadline": "2023-03-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "Column-Oriented Memory Diagram (Due Wednesday 3/29)",
+            "date": "2023-03-28",
+            "deadline": "2023-03-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        }
+    ],
+    "2023-03-29": [],
+    "2023-03-30": [
+        {
+            "kind": "CL",
+            "n": 8,
+            "title": "Quantified Shakespeare",
+            "date": "2023-03-30",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/a95cZlkkhT0?feature=share",
+                "Lecture Slides": "/static/slides/CL08.pdf",
+                "Data For Lecture": "https://ocw.mit.edu/ans7870/6/6.006/s08/lecturenotes/files/t8.shakespeare.txt"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 8,
+            "title": "Data Wrangling (Due Wednesday 4/5)",
+            "date": "2023-03-30",
+            "deadline": "2023-04-05",
+            "links": {
+                "": "/exercises/ex08.html"
+            }
+        }
+    ],
+    "2023-03-31": []
 }
