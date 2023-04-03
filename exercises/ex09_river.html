@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1680287899.0959423">
+  <link rel="stylesheet" href="/static/styles.css?v=1680532743.1645226">
 </head>
 
 <body>
@@ -65,12 +65,12 @@
 <li><a href="#create-bear-class">1. Create Bear Class</a>
 <ul>
 <li><a href="#class-bear-attributes">1.1 <code>class Bear</code> attributes</a></li>
-<li><a href="#bear__init__">1.2 <code>Bear::__init__</code></a></li>
+<li><a href="#bear__init__">1.2 <code>Bear#__init__</code></a></li>
 </ul></li>
 <li><a href="#create-fish-class">2. Create Fish Class</a>
 <ul>
 <li><a href="#class-fish-attributes">2.1 <code>class Fish</code> attributes</a></li>
-<li><a href="#fish__init__">2.2 <code>Fish::__init__</code></a></li>
+<li><a href="#fish__init__">2.2 <code>Fish#__init__</code></a></li>
 </ul></li>
 <li><a href="#create-river-class">3. Create River Class</a>
 <ul>
@@ -80,30 +80,25 @@
 </ul></li>
 <li><a href="#simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</a>
 <ul>
-<li><a href="#bearone_day">4.1 <code>Bear::one_day()</code></a></li>
-<li><a href="#fishone_day">4.2 <code>Fish::one_day()</code></a></li>
-<li><a href="#riverone_river_week-method">4.3 <code>River::one_river_week()</code> method</a></li>
+<li><a href="#bearone_day">4.1 <code>Bear#one_day()</code></a></li>
+<li><a href="#fishone_day">4.2 <code>Fish#one_day()</code></a></li>
+<li><a href="#riverone_river_week-method">4.3 <code>River#one_river_week()</code> method</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#part-ii">Part II</a>
 <ul>
-<li><a href="#removing-animals-from-river">1. Removing animals from <code>River</code></a>
-<ul>
-<li><a href="#riverremove_bears-method">1.1 <code>River::remove_bears()</code> method</a></li>
-<li><a href="#riverremove_fish-method">1.2 <code>River::remove_fish()</code> method</a></li>
-<li><a href="#rivercheck_ages">1.3 <code>River::check_ages()</code></a></li>
-</ul></li>
+<li><a href="#rivercheck_ages">1 <code>River#check_ages()</code></a></li>
 <li><a href="#modelling-bears-hunger">2. Modelling Bear’s Hunger</a>
 <ul>
-<li><a href="#modifying-bearone_day">2.1 Modifying <code>Bear::one_day()</code></a></li>
-<li><a href="#beareat-method">2.2 <code>Bear::eat()</code> method</a></li>
-<li><a href="#modifying-riverbears_eating">2.3 Modifying <code>River::bears_eating</code></a></li>
-<li><a href="#modifying-rivercheck_hunger">2.4 Modifying <code>River::check_hunger</code></a></li>
+<li><a href="#modifying-bearone_day">2.1 Modifying <code>Bear#one_day()</code></a></li>
+<li><a href="#beareat-method">2.2 <code>Bear#eat()</code> method</a></li>
+<li><a href="#modifying-riverbears_eating">2.3 Modifying <code>River#bears_eating</code></a></li>
+<li><a href="#modifying-rivercheck_hunger">2.4 Modifying <code>River#check_hunger</code></a></li>
 </ul></li>
 <li><a href="#modelling-reproduction">3. Modelling Reproduction</a>
 <ul>
-<li><a href="#riverrepopulate_bears">3.1 <code>River::repopulate_bears</code></a></li>
-<li><a href="#riverrepopulate_fish">3.2 <code>River::repopulate_fish</code></a></li>
+<li><a href="#riverrepopulate_bears">3.1 <code>River#repopulate_bears</code></a></li>
+<li><a href="#riverrepopulate_fish">3.2 <code>River#repopulate_fish</code></a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -127,13 +122,13 @@
 <p>All of the work for this part will be done in the file <code>bear.py</code>.</p>
 <h3 id="class-bear-attributes">1.1 <code>class Bear</code> attributes</h3>
 <p>For this part, you are going to create and initialize a class to represent the Bears living by the river. In the file <code>bear.py</code>, you will see a class defined with the name <code>Bear</code>. Give it the attributes <code>age</code> and <code>hunger_score</code> which is are both integers. (You won’t use <code>hunger_score</code> in Part I, but it’ll be useful later!)</p>
-<h3 id="bear__init__">1.2 <code>Bear::__init__</code></h3>
+<h3 id="bear__init__">1.2 <code>Bear#__init__</code></h3>
 <p>Within the <code>Bear</code> class, modify <code>__init__</code> so that it initializes both <code>self.age</code> and <code>hunger_score</code> with the value <code>0</code>.</p>
 <h2 id="create-fish-class">2. Create Fish Class</h2>
 <p>Now we are going to create a class to represent the fish in the river.</p>
 <h3 id="class-fish-attributes">2.1 <code>class Fish</code> attributes</h3>
 <p>In the <code>fish.py</code> file, there will be a class defined called <code>Fish</code>. Like <code>Bear</code>, give it have the attribute <code>age</code> which is an integer. (It does <em>NOT</em> need a <code>hunger_score</code> attribute.)</p>
-<h3 id="fish__init__">2.2 <code>Fish::__init__</code></h3>
+<h3 id="fish__init__">2.2 <code>Fish#__init__</code></h3>
 <p>Within the <code>Fish</code> class, modify <code>__init__</code> so that it initializes <code>self.age</code> with the value <code>0</code>.</p>
 <h2 id="create-river-class">3. Create River Class</h2>
 <p>Now that you have some animals, you can create and populate a river!</p>
@@ -151,10 +146,15 @@
 <li>initializes <code>self.day</code> to be <code>0</code></li>
 </ul>
 <h3 id="implement">3.2 Implement</h3>
-<p>Implement the <code>__init__</code> method by opening <code>river_simulation.py</code>, and constructing a river named <code>my_river</code> with 2 Bears and 10 Fish. (Don’t forget to import the <code>River</code> class!)</p>
+<p>Implement the <code>__init__</code> method by opening <code>river_simulation.py</code>, and constructing a river named <code>my_river</code> with 10 <code>Fish</code> and 2 <code>Bears</code>. (Don’t forget to import the <code>River</code> class!)</p>
 <h3 id="view_river-method">3.3 <code>view_river()</code> method</h3>
+<p>Now, you are going to modify the method inside your <code>River</code> class called <code>view_river</code> which will print the river status out to you.</p>
 <h4 id="define">Define</h4>
-<p>Now, you are going to modify the method inside your <code>River</code> class called <code>view_river</code>which will print the river status out to you. - It takes no parameters other than <code>self</code> and returns nothing. - It should print the following:</p>
+<p><code>view_river</code> should behave such that:</p>
+<ul>
+<li><p>It takes no parameters other than <code>self</code> and returns nothing.</p></li>
+<li><p>It should print the following:</p></li>
+</ul>
 <pre><code>~~~ Day x: ~~~
 Fish population: y
 Bear population: z</code></pre>
@@ -168,40 +168,34 @@ Bear population: 2</code></pre>
 <h2 id="simulating-one-day-and-one-week-in-the-river">4. Simulating “one day” and “one week” in the River</h2>
 <p>Now that you have a river with Bears and Fish, you can model how their population updates day-to-day.</p>
 <p><code>Bear</code> and <code>Fish</code> each have their own <code>one_day</code> method. Modify them so they have the following behaviors:</p>
-<h3 id="bearone_day">4.1 <code>Bear::one_day()</code></h3>
+<h3 id="bearone_day">4.1 <code>Bear#one_day()</code></h3>
 <p>The method <code>one_day()</code> in the <code>Bear</code> class takes no parameters other than <code>self</code> and does not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
-<h3 id="fishone_day">4.2 <code>Fish::one_day()</code></h3>
+<h3 id="fishone_day">4.2 <code>Fish#one_day()</code></h3>
 <p>The method <code>one_day()</code> in the <code>Fish</code> class takes no parameters other than <code>self</code> and does not return anything. It should increase the value of the <code>age</code> attribute by 1.</p>
-<h3 id="riverone_river_week-method">4.3 <code>River::one_river_week()</code> method</h3>
+<h3 id="riverone_river_week-method">4.3 <code>River#one_river_week()</code> method</h3>
 <p>The method <code>one_river_day()</code> in the <code>River</code> class is defined for you. It’ll do more once you’ve finished Part II, but notice that it calls the <code>one_day()</code> method for both the <code>Fish</code> and the <code>Bear</code>s.</p>
 <p>Within the <code>River</code> class, define a method <code>one_river_week()</code> that takes no parameters other than <code>self</code> and does not return anything. It should simply call <code>one_river_day()</code> seven times.</p>
-<p>At the bottom of <code>river_simulation.py</code>, you can test the functionality of <code>one_river_week</code> by calling it. (You’ll notice a pretty boring output. Don’t worry, in Part II we will model population changes!)</p>
+<p>At the bottom of <code>river_simulation.py</code>, test out the functionality of <code>one_river_week</code> by calling it. (You’ll notice a pretty boring output. Don’t worry, in Part II we will model population changes!)</p>
 <h1 id="part-ii">Part II</h1>
 <p>For Part II we will represent the circle of life… you will be simulating the life cycle of both the <code>Bear</code>s and the <code>Fish</code> in the <code>River</code>!</p>
-<h2 id="removing-animals-from-river">1. Removing animals from <code>River</code></h2>
-<p>At the end of their life cycle, animals should be removed from the <code>River</code>. This can be implemented via the following methods.</p>
-<h3 id="riverremove_bears-method">1.1 <code>River::remove_bears()</code> method</h3>
-<p>Within the <code>River</code> class, create a <code>remove_bears</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing. It should remove <code>amount</code> many <code>Bear</code>s from the <code>River</code>. You should remove the <strong>FRONTMOST</strong> <code>Bear</code>s. (The “front” being the <code>Bear</code> at index 0.)</p>
-<p><em>Implementation hint:</em> You don’t want to be removing things from a list <em>while</em> you’re looping through it. Instead, create a new <code>list[Bear]</code> and copy all surviving <code>Bear</code>s over to that list rather than removing <code>Bear</code>s directly from <code>self.bears</code>. Then update <code>self.bears</code> to be equal to that copied list.</p>
-<h3 id="riverremove_fish-method">1.2 <code>River::remove_fish()</code> method</h3>
-<p>Within the <code>River</code> class, create a <code>remove_fish</code> method that has <code>self</code> and <code>amount: int</code> as parameters and returns nothing. It should remove <code>amount</code> many <code>Fish</code> from the <code>River</code>. You should remove the <strong>FRONTMOST</strong> <code>Fish</code>.</p>
-<h3 id="rivercheck_ages">1.3 <code>River::check_ages()</code></h3>
+<h3 id="rivercheck_ages">1 <code>River#check_ages()</code></h3>
 <p>As animal’s age, they should be removed from the <code>River</code>. Modify the <code>check_ages</code> method so it has the following functionality. If a <code>Fish</code>’s age is &gt; 3 it should be removed from <code>fish</code>. If a <code>Bear</code>’s age is &gt; 5 it should be removed from <code>bears</code>.</p>
 <h2 id="modelling-bears-hunger">2. Modelling Bear’s Hunger</h2>
 <p>Now, unfortunately, comes the circle of life. A bear’s gotta eat! This will involve modifying the <code>one_day()</code> method in the <code>Bear</code> class and making a new <code>eat()</code> method in the <code>Bear</code> class.</p>
-<h3 id="modifying-bearone_day">2.1 Modifying <code>Bear::one_day()</code></h3>
+<h3 id="modifying-bearone_day">2.1 Modifying <code>Bear#one_day()</code></h3>
 <p>Modify the method <code>one_day()</code> in the <code>Bear</code> class so that every day the <code>hunger_score</code> attribute decreases by 1.</p>
-<h3 id="beareat-method">2.2 <code>Bear::eat()</code> method</h3>
+<h3 id="beareat-method">2.2 <code>Bear#eat()</code> method</h3>
 <p>Now, you are going to create a new method in the <code>Bear</code> class called <code>eat()</code>. It has two parameters, <code>self</code> and <code>num_fish: int</code> and returns nothing. It should update the <code>Bear</code>’s <code>hunger_score</code> so that it increases by <code>num_fish</code>. (For example, if <code>num_fish = 2</code>, a <code>Bear</code> ate 2 fish, so its <code>hunger_score</code> should increase by 2.)</p>
-<h3 id="modifying-riverbears_eating">2.3 Modifying <code>River::bears_eating</code></h3>
+<h3 id="modifying-riverbears_eating">2.3 Modifying <code>River#bears_eating</code></h3>
 <p>Modify the <code>bears_eating</code> method, so that, for each <code>Bear</code>, if there are at least 5 <code>Fish</code> in the river, the <code>Bear</code> will eat 3 <code>Fish</code>. This involves removing 3 <code>Fish</code> from the river and calling <code>eat()</code> each time a <code>Bear</code> eats.</p>
-<h3 id="modifying-rivercheck_hunger">2.4 Modifying <code>River::check_hunger</code></h3>
+<h3 id="modifying-rivercheck_hunger">2.4 Modifying <code>River#check_hunger</code></h3>
 <p>Unfortunately, if a <code>Bear</code> gets hungry enough, it’ll starve. Modify the <code>check_hunger</code> method so that it checks the <code>hunger_score</code> of every <code>Bear</code> in the river. If <code>hunger_score &lt; 0</code>, then remove the <code>Bear</code> from the river.</p>
+<p><em>Implementation hint:</em> You don’t want to be removing things from a list <em>while</em> you’re looping through it. Instead, create a new <code>list[Bear]</code> and copy all surviving <code>Bear</code>s over to that list rather than removing <code>Bear</code>s directly from <code>self.bears</code>. Then update <code>self.bears</code> to be equal to that copied list.</p>
 <h2 id="modelling-reproduction">3. Modelling Reproduction</h2>
 <p>Now we are going to model the reproduction of the Bears and the Fish!</p>
-<h3 id="riverrepopulate_bears">3.1 <code>River::repopulate_bears</code></h3>
+<h3 id="riverrepopulate_bears">3.1 <code>River#repopulate_bears</code></h3>
 <p>Modify the <code>repopulate_bears</code> method so that it has the following functionality.Each <em>pair</em> of Bear’s will produce 1 offspring. In other words, if there are 2 bears, 1 new bear will be born and added to <code>bears</code>. To generalize, for <code>n</code> bears, there will be <code>n//2</code> new <code>Bear</code>s added to <code>bears</code>.</p>
-<h3 id="riverrepopulate_fish">3.2 <code>River::repopulate_fish</code></h3>
+<h3 id="riverrepopulate_fish">3.2 <code>River#repopulate_fish</code></h3>
 <p>Modify the <code>repopulate_fish</code> method so that it has the following functionality. Each <em>pair</em> of fish will produce 4 offspring. In other words, if there are 2 fish, 4 new fish will be born and added to <code>fish</code>. To generalize, for <code>n</code> fish, there will be <code>(n//2) * 4</code> new <code>Fish</code> added to <code>fish</code>.</p>
 </div>
 
