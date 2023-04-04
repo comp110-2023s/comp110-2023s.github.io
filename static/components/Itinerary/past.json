@@ -520,13 +520,14 @@
         {
             "kind": "EX",
             "n": 8,
-            "title": "Data Wrangling (Due Wednesday 4/5)",
+            "title": "Data Wrangling (Due Monday 4/10)",
             "date": "2023-03-30",
-            "deadline": "2023-04-05",
+            "deadline": "2023-04-10",
             "links": {
                 "": "/exercises/ex08.html"
             }
         }
     ],
-    "2023-03-31": []
+    "2023-03-31": [],
+    "2023-04-01": []
 }
