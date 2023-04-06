@@ -52,7 +52,7 @@
         {
             "kind": "CL",
             "n": 9,
-            "title": "More Practice with OOP",
+            "title": "Practice with OOP",
             "date": "2023-04-13",
             "deadline": "None",
             "links": {
@@ -104,7 +104,9 @@
             "title": "Final @ 8:00AM",
             "date": "2023-05-02",
             "deadline": "None",
-            "links": {}
+            "links": {
+                "Practice Problems": ""
+            }
         }
     ]
 }
