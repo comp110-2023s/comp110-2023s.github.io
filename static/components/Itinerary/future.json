@@ -1,6 +1,4 @@
 {
-    "2023-04-02": [],
-    "2023-04-03": [],
     "2023-04-04": [
         {
             "kind": "VL",
@@ -31,6 +29,16 @@
     "2023-04-10": [],
     "2023-04-11": [
         {
+            "kind": "VL",
+            "n": 10,
+            "title": "Virtual Lesson",
+            "date": "2023-04-11",
+            "deadline": "2023-04-11",
+            "links": {
+                "": "/virtual-classes/VL09.html"
+            }
+        },
+        {
             "kind": "EX",
             "n": 9,
             "title": "River Simulation Part 2 (Due Thursday 4/20)",
@@ -40,7 +48,19 @@
         }
     ],
     "2023-04-12": [],
-    "2023-04-13": [],
+    "2023-04-13": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "More Practice with OOP",
+            "date": "2023-04-13",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
+            }
+        }
+    ],
     "2023-04-14": [],
     "2023-04-15": [],
     "2023-04-16": [],
