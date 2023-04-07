@@ -542,16 +542,6 @@
             "links": {
                 "": "/virtual-classes/VL09.html"
             }
-        },
-        {
-            "kind": "EX",
-            "n": 9,
-            "title": "River Simulation Part 1 (Due Thursday 4/20)",
-            "date": "2023-04-04",
-            "deadline": "2023-04-20",
-            "links": {
-                "": "/exercises/ex09_river.html"
-            }
         }
     ],
     "2023-04-05": [],
@@ -574,10 +564,12 @@
         {
             "kind": "EX",
             "n": 9,
-            "title": "River Simulation Part 2 (Due Thursday 4/20)",
+            "title": "River Simulation (Parts 1 and 2) (Due Thursday 4/27)",
             "date": "2023-04-11",
-            "deadline": "2023-04-20",
-            "links": {}
+            "deadline": "2023-04-27",
+            "links": {
+                "": "/exercises/ex09_river.html"
+            }
         }
     ],
     "2023-04-12": [],
