@@ -19,9 +19,9 @@
         {
             "kind": "EX",
             "n": 9,
-            "title": "River Simulation (Parts 1 and 2) (Due Thursday 4/27)",
+            "title": "River Simulation (Parts 1 and 2) (Due Thursday 4/20)",
             "date": "2023-04-11",
-            "deadline": "2023-04-27",
+            "deadline": "2023-04-20",
             "links": {
                 "": "/exercises/ex09_river.html"
             }
