@@ -531,5 +531,27 @@
     "2023-03-31": [],
     "2023-04-01": [],
     "2023-04-02": [],
-    "2023-04-03": []
+    "2023-04-03": [],
+    "2023-04-04": [
+        {
+            "kind": "VL",
+            "n": 9,
+            "title": "Virtual Lesson",
+            "date": "2023-04-04",
+            "deadline": "2023-04-04",
+            "links": {
+                "": "/virtual-classes/VL09.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 9,
+            "title": "River Simulation Part 1 (Due Thursday 4/20)",
+            "date": "2023-04-04",
+            "deadline": "2023-04-20",
+            "links": {
+                "": "/exercises/ex09_river.html"
+            }
+        }
+    ]
 }
