@@ -554,9 +554,9 @@
         {
             "kind": "VL",
             "n": 10,
-            "title": "Virtual Lesson",
+            "title": "Virtual Lesson (Due Wednesday 4/12)",
             "date": "2023-04-11",
-            "deadline": "2023-04-11",
+            "deadline": "2023-04-12",
             "links": {
                 "": "/virtual-classes/VL10.html"
             }
