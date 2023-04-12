@@ -582,7 +582,7 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "",
-                "Lecture Slides": ""
+                "Lecture Slides": "/static/slides/CL09-oop-practice.pdf"
             }
         }
     ],
@@ -642,7 +642,19 @@
         }
     ],
     "2023-04-26": [],
-    "2023-04-27": [],
+    "2023-04-27": [
+        {
+            "kind": "CL",
+            "n": 10,
+            "title": "Final Review",
+            "date": "2023-04-27",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "",
+                "Lecture Slides": ""
+            }
+        }
+    ],
     "2023-04-28": [],
     "2023-05-02": [
         {
