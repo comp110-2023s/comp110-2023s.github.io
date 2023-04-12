@@ -581,8 +581,8 @@
             "date": "2023-04-13",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": "/static/slides/CL09-oop-practice.pdf"
+                "Lecture Video": "https://youtube.com/live/wxgK7QS99Ps?feature=share",
+                "Lecture Slides": "/static/slides/CL09-OOP-Practice.pdf"
             }
         }
     ],
