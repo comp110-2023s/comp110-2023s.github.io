@@ -590,18 +590,7 @@
     "2023-04-15": [],
     "2023-04-16": [],
     "2023-04-17": [],
-    "2023-04-18": [
-        {
-            "kind": "VL",
-            "n": 11,
-            "title": "Virtual Lesson",
-            "date": "2023-04-18",
-            "deadline": "2023-04-18",
-            "links": {
-                "": "/virtual-classes/VL11.html"
-            }
-        }
-    ],
+    "2023-04-18": [],
     "2023-04-19": [],
     "2023-04-20": [
         {
@@ -613,7 +602,7 @@
             "links": {
                 "Covered Topics": "/qz03-concepts.html",
                 "Practice Problems": "/resources/practice/sp23/quiz3-worksheet.html",
-                "Review Session": ""
+                "Review Session (5:30 pm Wednesday)": "https://unc.zoom.us/j/97044623020"
             }
         },
         {
@@ -632,12 +621,12 @@
     "2023-04-25": [
         {
             "kind": "VL",
-            "n": 12,
+            "n": 11,
             "title": "Virtual Lesson",
             "date": "2023-04-25",
             "deadline": "2023-04-25",
             "links": {
-                "": "/virtual-classes/VL12.html"
+                "": "/virtual-classes/VL11.html"
             }
         }
     ],

@@ -549,5 +549,42 @@
     "2023-04-07": [],
     "2023-04-08": [],
     "2023-04-09": [],
-    "2023-04-10": []
+    "2023-04-10": [],
+    "2023-04-11": [
+        {
+            "kind": "VL",
+            "n": 10,
+            "title": "Virtual Lesson (Due Wednesday 4/12)",
+            "date": "2023-04-11",
+            "deadline": "2023-04-12",
+            "links": {
+                "": "/virtual-classes/VL10.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 9,
+            "title": "River Simulation (Parts 1 and 2) (Due Thursday 4/20)",
+            "date": "2023-04-11",
+            "deadline": "2023-04-20",
+            "links": {
+                "": "/exercises/ex09_river.html"
+            }
+        }
+    ],
+    "2023-04-12": [],
+    "2023-04-13": [
+        {
+            "kind": "CL",
+            "n": 9,
+            "title": "Practice with OOP",
+            "date": "2023-04-13",
+            "deadline": "None",
+            "links": {
+                "Lecture Video": "https://youtube.com/live/-vZwf2HsLJY?feature=share",
+                "Lecture Slides": "/static/slides/CL09-OOP-Practice.pdf"
+            }
+        }
+    ],
+    "2023-04-14": []
 }
