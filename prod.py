@@ -32,6 +32,9 @@ def main() -> None:
     elif is_columns(globals):
         bodies = split_body(body)
         generate_html(md_file, globals, bodies, fixed_navbar, site_branch)
+    elif is_columns_profile(globals):
+        bodies = split_body(body)
+        generate_html(md_file, globals, bodies, fixed_navbar, site_branch)
     elif is_rows(globals):
         bodies = split_body(body)
         generate_html(md_file, globals, bodies, fixed_navbar, site_branch)
@@ -70,6 +73,11 @@ def is_columns(globals):
         return globals["template"] == "columns"
     return False
 
+def is_columns_profile(globals):
+    """Determines if the page should have a column layout."""
+    if "template" in globals:
+        return globals["template"] == "columns-profile"
+    return False
 
 def is_rows(globals):
     """Determines if the page should have a row layout."""
