@@ -17,18 +17,22 @@
 
   {#
   <script src="/static/scripts/scroll-handler.js"></script>
-  <script src="/static/scripts/sunset_sunrise.js"></script> #}
+  <script src="/static/scripts/sunset_sunrise.js"></script> 
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  #}
 
 </head>
 
-<body>
+<script src="/static/scripts/hidden-button.js"></script> 
 
+<body onload = "show()">
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
     <div class="container">
       <a href="/" class="navbar-brand">COMP 110</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -36,8 +40,8 @@
         <ul class="navbar-nav ms-auto">
           {# WILL ADD BACK WHEN PAST SECTION IS BACK #}
           {# <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/" id="navbarDarkDropdownMenuLink" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="/" id="navbar-toggler" role="navigation"
+              data-bs-toggle="dropdown" aria-expanded="false" aria-label="Main Menu" aria-controls="#navmenu">
               agenda
             </a>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -76,6 +80,8 @@
     </div>
   </nav>
 
+
+
   {# INTRO SECTION #}
   <section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start d-none d-md-block">
     <div class="container">
@@ -87,6 +93,12 @@
       </div>
     </div>
   </section>
+
+  
+  <a href="#latest">
+    <button id="hiddenButton" style="display: none;"class="text-center" >Skip To Main Content</button>
+  </a>
+
 
   {# BODY OF HOMEPAGE: Found at index.md #}
   {% block content %}
@@ -100,11 +112,11 @@
   {# PAGE FOOTER #}
   <div class='link-page mt-3 container'>
     <footer>
-      <h6 class="text-center align-middle footer-text">&copy; 2023 <a href="https://krisjordan.com">Kris Jordan</a>
+      <h3 class="text-center align-middle footer-text">&copy; 2023 <a href="https://krisjordan.com">Kris Jordan</a>
         - <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
           Form</a>
-        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h6>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
     </footer>
   </div>
   {# SCRIPS FOR BOOTSTRAP #}
