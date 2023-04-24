@@ -589,5 +589,32 @@
     "2023-04-14": [],
     "2023-04-15": [],
     "2023-04-16": [],
-    "2023-04-17": []
+    "2023-04-17": [],
+    "2023-04-18": [],
+    "2023-04-19": [],
+    "2023-04-20": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2023-04-20",
+            "deadline": "2023-04-20",
+            "links": {
+                "Covered Topics": "/qz03-concepts.html",
+                "Practice Problems": "/resources/practice/sp23/quiz3-worksheet.html",
+                "Review Session (Passcode: Y2v^oeT@)": "https://unc.zoom.us/rec/share/vc-H8ylTXchEaYy1RLuxz6Sirm_9OHlOH-OhYOU5OuVF4HonhBqunI4uAUbcnSQz.85C5MKhMU-3xEA0-"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 10,
+            "title": "Simpy (Due Wednesday 4/26)",
+            "date": "2023-04-20",
+            "deadline": "2023-04-26",
+            "links": {
+                "": "/exercises/ex10.html"
+            }
+        }
+    ],
+    "2023-04-21": []
 }
