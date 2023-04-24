@@ -642,9 +642,7 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "",
-                "Lecture Slides": "",
-                "Review Sessions Info": "/resources/practice/sp23/finals-review-sesh.html",
-                "Makeup Final Info": "/resources/final-makeup.html"
+                "Lecture Slides": ""
             }
         }
     ],
@@ -657,7 +655,9 @@
             "date": "2023-05-02",
             "deadline": "None",
             "links": {
-                "Practice Problems": ""
+                "Practice Problems": "",
+                "Review Sessions Info": "/resources/practice/sp23/finals-review-sesh.html",
+                "Makeup Final Info": "/resources/final-makeup.html"
             }
         }
     ]
