@@ -642,7 +642,8 @@
             "deadline": "None",
             "links": {
                 "Lecture Video": "https://youtube.com/live/VK7f6wxntH8?feature=share",
-                "Lecture Slides": "/static/slides/CL10.pdf"
+                "Lecture Slides": "/static/slides/CL10.pdf",
+                "Practice Problem": "/resources/practice/sp23/plane-practice.html"
             }
         }
     ],
