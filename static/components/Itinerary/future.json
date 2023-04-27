@@ -1,5 +1,4 @@
 {
-    "2023-04-24": [],
     "2023-04-25": [
         {
             "kind": "VL",
@@ -21,8 +20,8 @@
             "date": "2023-04-27",
             "deadline": "None",
             "links": {
-                "Lecture Video": "",
-                "Lecture Slides": ""
+                "Lecture Video": "https://youtube.com/live/VK7f6wxntH8?feature=share",
+                "Lecture Slides": "/static/slides/CL10.pdf"
             }
         }
     ],
